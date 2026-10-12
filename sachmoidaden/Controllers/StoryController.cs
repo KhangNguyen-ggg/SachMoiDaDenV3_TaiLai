@@ -6,6 +6,15 @@ using sachmoidaden.Services;
 namespace sachmoidaden.Controllers;
 public class StoryController(LibraryService library, ChapterFiles files) : ForumController(library)
 {
+    public async Task<IActionResult> Cover(int id)
+    {
+        var cover = await Library.CoverAsync(id, UserId);
+        if (cover == null)
+            return NotFound();
+        Response.Headers.CacheControl = "no-store, private";
+        return File(cover.Data, cover.ContentType);
+    }
+
     public async Task<IActionResult> Details(int id)
     {
         var d = await Library.ReadAsync(UserId);

@@ -121,6 +121,29 @@ public sealed class ChapterFiles
         }
     }
 
+    public async Task<CoverImage> ReadCoverAsync(IFormFile file, CancellationToken token)
+    {
+        var ext = Path.GetExtension(file.FileName).ToLowerInvariant();
+        if (ext is not (".jpg" or ".jpeg" or ".png" or ".webp") || file.Length is < 1 or > MaxImageBytes)
+            throw new InvalidDataException("Ảnh bìa phải là JPG, PNG hoặc WebP, tối đa 5 MiB.");
+        using var input = file.OpenReadStream();
+        var bytes = new byte[(int)file.Length];
+        try
+        {
+            await input.ReadExactlyAsync(bytes.AsMemory(), token);
+        }
+        catch (EndOfStreamException)
+        {
+            throw new InvalidDataException("Dung lượng ảnh bìa không khớp.");
+        }
+        if (await input.ReadAsync(new byte[1], token) != 0)
+            throw new InvalidDataException("Dung lượng ảnh bìa không khớp.");
+        var mime = Detect(bytes, ext);
+        if (mime == null || !mime.StartsWith("image/", StringComparison.Ordinal))
+            throw new InvalidDataException("Định dạng thật của ảnh bìa không hợp lệ.");
+        return new CoverImage(bytes, mime);
+    }
+
     static string? Detect(byte[] b, string ext)
     {
         if (ext is ".txt" or ".md")

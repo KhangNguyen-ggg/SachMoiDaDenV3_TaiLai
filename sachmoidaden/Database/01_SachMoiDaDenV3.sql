@@ -66,6 +66,8 @@ CREATE TABLE dbo.Sach (
     TenSach nvarchar(160) NOT NULL,
     TacGia nvarchar(100) NOT NULL,
     GioiThieu nvarchar(3000) NOT NULL,
+    HinhAnhBia varbinary(max) NULL, -- Bytes anh bia; NULL neu chua tai len.
+    KieuAnhBia varchar(20) NULL, -- image/jpeg, image/png, image/webp
     LoaiTruyen tinyint NOT NULL CONSTRAINT DF_Sach_Loai DEFAULT 0, -- 0: chu; 1: tranh
     -- 0: Dang ra; 1: Hoan thanh. Khac voi trang thai kiem duyet.
     TrangThaiSangTac tinyint NOT NULL CONSTRAINT DF_Sach_SangTac DEFAULT 0,
@@ -76,6 +78,10 @@ CREATE TABLE dbo.Sach (
     NgayTao datetime2(3) NOT NULL CONSTRAINT DF_Sach_NgayTao DEFAULT SYSUTCDATETIME(),
     NgayCapNhat datetime2(3) NOT NULL CONSTRAINT DF_Sach_CapNhat DEFAULT SYSUTCDATETIME(),
     CONSTRAINT FK_Sach_NguoiDang FOREIGN KEY (MaNguoiDang) REFERENCES dbo.TaiKhoan(MaTaiKhoan),
+    CONSTRAINT CK_Sach_AnhBia CHECK (
+        (HinhAnhBia IS NULL AND KieuAnhBia IS NULL) OR
+        (HinhAnhBia IS NOT NULL AND KieuAnhBia IS NOT NULL AND
+         DATALENGTH(HinhAnhBia) BETWEEN 1 AND 5242880 AND KieuAnhBia IN ('image/jpeg','image/png','image/webp'))),
     CONSTRAINT CK_Sach_Loai CHECK (LoaiTruyen IN (0,1)),
     CONSTRAINT CK_Sach_Ten CHECK (LEN(LTRIM(RTRIM(TenSach)))>0),
     CONSTRAINT CK_Sach_TacGia CHECK (LEN(LTRIM(RTRIM(TacGia)))>0),

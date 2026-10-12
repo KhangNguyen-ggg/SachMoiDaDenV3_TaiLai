@@ -22,7 +22,12 @@ public sealed class SqlSession(SqlConnection connection, SqlTransaction? transac
             CommandTimeout = 30
         };
         foreach (var(name, value)in values)
-            command.Parameters.AddWithValue(name, value ?? DBNull.Value);
+        {
+            if (name == "@cover")
+                command.Parameters.Add(name, SqlDbType.VarBinary, -1).Value = value ?? DBNull.Value;
+            else
+                command.Parameters.AddWithValue(name, value ?? DBNull.Value);
+        }
         using var reader = await command.ExecuteReaderAsync();
         var results = new List<List<SqlRow>>();
         do
@@ -51,7 +56,12 @@ public sealed class SqlSession(SqlConnection connection, SqlTransaction? transac
             CommandTimeout = 30
         };
         foreach (var(name, value)in values)
-            command.Parameters.AddWithValue(name, value ?? DBNull.Value);
+        {
+            if (name == "@cover")
+                command.Parameters.Add(name, SqlDbType.VarBinary, -1).Value = value ?? DBNull.Value;
+            else
+                command.Parameters.AddWithValue(name, value ?? DBNull.Value);
+        }
         return await command.ExecuteNonQueryAsync();
     }
 

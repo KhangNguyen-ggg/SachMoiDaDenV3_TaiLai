@@ -8,13 +8,12 @@ using sachmoidaden.Data;
 using sachmoidaden.Models;
 using sachmoidaden.Services;
 
-if (args.Contains("--create-admin") && args.Contains("--seed-demo"))
-    throw new ArgumentException("Chỉ chọn một lệnh: --create-admin hoặc --seed-demo.");
-var builder = WebApplication.CreateBuilder(args.Where(a => a is not ("--create-admin" or "--seed-demo")).ToArray());
+if (args.Contains("--seed-demo"))
+    throw new ArgumentException("Bản này sử dụng dữ liệu SQL thực tế; lệnh nạp mẫu đã được bỏ.");
+var builder = WebApplication.CreateBuilder(args.Where(a => a != "--create-admin").ToArray());
 builder.Services.AddSingleton<SqlDatabase>();
 builder.Services.AddScoped<LibraryService>();
 builder.Services.AddSingleton<ChapterFiles>();
-builder.Services.AddScoped<DemoSeeder>();
 var keys = Path.GetFullPath(builder.Configuration["Storage:Keys"] ?? "App_Data/Keys", builder.Environment.ContentRootPath);
 Directory.CreateDirectory(keys);
 builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(keys)).SetApplicationName("SachMoiDaDen");
@@ -62,22 +61,13 @@ if (args.Contains("--create-admin"))
     var hash = new PasswordHasher<AppUser>().HashPassword(user, password);
     await db.TransactionAsync(async s =>
     {
-        if ((await s.QueryAsync("SELECT TOP(1) MaTaiKhoan FROM dbo.TaiKhoan WITH(UPDLOCK,HOLDLOCK) WHERE MaVaiTro='Admin'")).Count > 0)
-            throw new InvalidOperationException("Đã có Admin; dùng giao diện Tài khoản để cấp quyền.");
+        if ((await s.QueryAsync("SELECT TOP(1) MaTaiKhoan FROM dbo.TaiKhoan WITH(UPDLOCK,HOLDLOCK) WHERE MaVaiTro='Admin' AND BiKhoa=0")).Count > 0)
+            throw new InvalidOperationException("Đã có Admin đang hoạt động; dùng giao diện Tài khoản để cấp quyền.");
         await s.ExecuteAsync("INSERT dbo.TaiKhoan(TenHienThi,Email,MatKhauHash,MaVaiTro) VALUES(@name,@email,@hash,'Admin')", ("@name", name), ("@email", email), ("@hash", hash));
         return true;
     });
     Console.WriteLine("Đã tạo Admin đầu tiên. Chạy lại ứng dụng không có --create-admin.");
     return;
-}
-
-if (args.Contains("--seed-demo") || (app.Environment.IsDevelopment() && app.Configuration.GetValue<bool>("DemoData:SeedOnStartup")))
-{
-    using var scope = app.Services.CreateScope();
-    bool created = await scope.ServiceProvider.GetRequiredService<DemoSeeder>().SeedAsync();
-    Console.WriteLine(created ? "Đã tạo 8 tài khoản, 48 truyện và 288 chương mẫu. Xem docs/DU_LIEU_MAU.md để đăng nhập." : "Bộ dữ liệu mẫu đã tồn tại; giữ nguyên tài khoản và dữ liệu.");
-    if (args.Contains("--seed-demo"))
-        return;
 }
 
 if (!app.Environment.IsDevelopment())

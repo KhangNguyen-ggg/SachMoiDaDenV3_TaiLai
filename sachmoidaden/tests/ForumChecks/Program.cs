@@ -122,6 +122,16 @@ try
     Check(pictures[1].ContentType == "image/png", "valid PNG accepted");
     Check(pictures[2].ContentType == "image/jpeg", "valid JPEG accepted");
     Check(pictures.Select(f => f.OriginalName).SequenceEqual(new[] { "c.webp", "a.png", "b.jpeg" }), "image order preserved");
+    foreach (var (extension, fixture) in new[] { ("png", "png"), ("jpeg", "jpeg"), ("webp", "webp") })
+    {
+        var bytes = Convert.FromBase64String(fixtures[fixture]);
+        var cover = await files.ReadCoverAsync(Upload("cover." + extension, bytes), CancellationToken.None);
+        Check(cover.Data.SequenceEqual(bytes) && cover.ContentType == "image/" + fixture, "cover preserves bytes and detects " + fixture);
+    }
+    await Reject(() => files.ReadCoverAsync(Upload("fake.png", Encoding.UTF8.GetBytes("invalid")), CancellationToken.None), "fake cover rejected");
+    await Reject(() => files.ReadCoverAsync(Upload("cover.txt", Encoding.UTF8.GetBytes("text")), CancellationToken.None), "non-image cover rejected");
+    await Reject(() => files.ReadCoverAsync(Upload("cover.png", new byte[ChapterFiles.MaxImageBytes + 1]), CancellationToken.None), "oversized cover rejected");
+    await Reject(() => files.ReadCoverAsync(Upload("cover.png", []), CancellationToken.None), "empty cover rejected");
     files.Delete(pictures);
     await Reject(() => files.SaveAsync([Upload("fake.png", Encoding.UTF8.GetBytes("hello"))], null, CancellationToken.None), "fake image rejected");
     await Reject(() => files.SaveAsync([Upload("fake.pdf", Encoding.UTF8.GetBytes("hello"))], null, CancellationToken.None), "fake PDF rejected");
@@ -136,44 +146,7 @@ try
     await Reject(() => files.PrepareAsync(new Chapter { Files = saved }, CancellationToken.None), "missing content rejected before reading");
     files.Delete(md);
     files.Delete(pdf);
-    using var demo = System.Text.Json.JsonDocument.Parse(File.ReadAllText("DemoData/books.json"));
-    var demoBooks = demo.RootElement.EnumerateArray().ToArray();
-    Check(demoBooks.Length == 48 && demoBooks.Sum(b => b.GetProperty("Chapters").GetArrayLength()) == 288, "demo has 48 books and 288 chapters");
-    Check(demoBooks.Count(b => !b.GetProperty("Pending").GetBoolean() && !b.GetProperty("Hidden").GetBoolean()) == 36 && demoBooks.Count(b => b.GetProperty("Pending").GetBoolean() && !b.GetProperty("Hidden").GetBoolean()) == 8 && demoBooks.Count(b => b.GetProperty("Hidden").GetBoolean()) == 4, "demo covers public, pending and hidden books");
-    Check(demoBooks.Where(b => !b.GetProperty("Pending").GetBoolean() && !b.GetProperty("Hidden").GetBoolean()).Any(b => b.GetProperty("Kind").GetInt32() == 1), "public demo includes comics");
-    var allKeys = new HashSet<string>();
-    var allTypes = new HashSet<string>();
-    int demoFileCount = 0;
-    foreach (var book in demoBooks)
-        foreach (var chapter in book.GetProperty("Chapters").EnumerateArray())
-        {
-            var metadata = chapter.GetProperty("Files").EnumerateArray().ToArray();
-            var uploads = new List<IFormFile>();
-            foreach (var f in metadata)
-            {
-                string key = f.GetProperty("Key").GetString()!;
-                if (!Guid.TryParseExact(key, "N", out _) || !allKeys.Add(key))
-                    throw new Exception("Invalid/duplicate demo key");
-                var bytes = File.ReadAllBytes(Path.Combine("DemoData", "files", key));
-                if (bytes.LongLength != f.GetProperty("Size").GetInt64() || !Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(bytes)).Equals(f.GetProperty("Sha256").GetString(), StringComparison.OrdinalIgnoreCase))
-                    throw new Exception("Demo checksum/size mismatch: " + key);
-                uploads.Add(Upload(f.GetProperty("OriginalName").GetString()!, bytes));
-                allTypes.Add(f.GetProperty("ContentType").GetString()!);
-            }
 
-            var imported = await files.SaveAsync(uploads, null, CancellationToken.None);
-            for (int i = 0; i < imported.Count; i++)
-                if (imported[i].Order != metadata[i].GetProperty("Order").GetInt32() || imported[i].ContentType != metadata[i].GetProperty("ContentType").GetString())
-                    throw new Exception("Demo MIME/order mismatch");
-            var prepared = await new ChapterFiles(new TestEnvironment(temp), config).PrepareAsync(new Chapter { Files = imported }, CancellationToken.None);
-            if (prepared.Count != metadata.Length)
-                throw new Exception("Demo chapter not fully readable");
-            demoFileCount += imported.Count;
-            files.Delete(imported);
-        }
-
-    Check(allKeys.Count == 432 && demoFileCount == 432, "all 432 demo files pass checksums, upload validation, order and persistent reader");
-    Check(allTypes.SetEquals(new[] { "text/plain", "text/markdown", "application/pdf", "image/png" }), "demo covers TXT, Markdown, PDF and PNG readers");
 }
 finally
 {
@@ -193,15 +166,6 @@ if (!connection.InitialCatalog.EndsWith("_Tests", StringComparison.Ordinal))
     throw new Exception("Use an isolated database ending in _Tests.");
 var db = new SqlDatabase(new ConfigurationBuilder().AddInMemoryCollection(new Dictionary<string, string?> { { "ConnectionStrings:SachMoiDaDen", testConnection } }).Build());
 var service = new LibraryService(db);
-var seedConfig = new ConfigurationBuilder().AddInMemoryCollection(new Dictionary<string, string?> { { "Storage:Root", "App_Data/TestDemoChapters" } }).Build();
-var seeder = new DemoSeeder(db, new TestEnvironment(Directory.GetCurrentDirectory()), seedConfig);
-await seeder.SeedAsync();
-var seedBefore = await db.ReadAsync(s => s.QueryAsync("SELECT Email,MatKhauHash,MaVaiTro,BiKhoa,DauBaoMat FROM dbo.TaiKhoan WHERE Email LIKE '%@demo.local' ORDER BY Email"));
-Check(!await seeder.SeedAsync(), "demo repeat skips committed seed");
-var seedAfter = await db.ReadAsync(s => s.QueryAsync("SELECT Email,MatKhauHash,MaVaiTro,BiKhoa,DauBaoMat FROM dbo.TaiKhoan WHERE Email LIKE '%@demo.local' ORDER BY Email"));
-Check(seedBefore.Count == 8 && System.Text.Json.JsonSerializer.Serialize(seedBefore) == System.Text.Json.JsonSerializer.Serialize(seedAfter), "demo repeat preserves account hashes, roles, locks and stamps");
-Check(await service.ValidateAsync("admin@demo.local", DemoSeeder.Password)is { Role: Roles.Admin }, "demo admin can log in");
-Check(await service.ValidateAsync("bikhoa@demo.local", DemoSeeder.Password) == null, "locked demo account cannot log in");
 string token = Guid.NewGuid().ToString("N"), password = "Test12345!";
 var actors = new Dictionary<string, Actor>();
 foreach (var role in Roles.All)
@@ -228,7 +192,21 @@ EditBookInput Book() => new()
 };
 await Reject(() => service.SaveBookAsync(member, Book()), "Member cannot publish");
 await Reject(() => service.SaveBookAsync(moderator, Book()), "Moderator cannot edit books");
-int id = await service.SaveBookAsync(writer, Book());
+var coverBytes = Convert.FromBase64String(System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText("tests/image-fixtures.json"))!["png"]);
+var coverImage = new CoverImage(coverBytes, "image/png");
+int id = await service.SaveBookAsync(writer, Book(), coverImage);
+Check(await service.CoverAsync(id, 0) == null, "pending cover private to guest");
+Check((await service.CoverAsync(id, writer.Id))!.Data.SequenceEqual(coverBytes), "owner cover persisted in SQL");
+Check(await service.CoverAsync(id, member.Id) == null, "pending cover private to member");
+var edited = Book(); edited.Id = id;
+await service.SaveBookAsync(writer, edited);
+Check((await service.CoverAsync(id, writer.Id))!.Data.SequenceEqual(coverBytes), "editing metadata keeps SQL cover");
+await Reject(() => service.SaveBookAsync(member, edited, coverImage), "member cannot replace cover");
+edited.RemoveCover = true;
+await service.SaveBookAsync(writer, edited);
+Check(await service.CoverAsync(id, writer.Id) == null, "remove cover clears SQL image");
+edited.RemoveCover = false;
+await service.SaveBookAsync(writer, edited, coverImage);
 Check(!(await service.ReadAsync()).Stories.Any(b => b.Id == id), "contributor book pending");
 await Reject(() => service.EnsureBookOwnerAsync(new Actor(member.Id, member.Stamp), id), "non-owner cannot add chapter");
 var storage = Path.Combine(Path.GetTempPath(), "sach-sql-tests-" + token);
@@ -241,7 +219,8 @@ await service.ModerateAsync(moderator, "book", id, "approve");
 Check(!(await service.ReadAsync()).Stories.Any(b => b.Id == id), "approval preserves hidden flag");
 await service.ModerateAsync(moderator, "book", id, "restore");
 var data = await service.ReadAsync(member.Id);
-Check(data.Stories.Any(b => b.Id == id), "restored approved book public");
+Check(data.Stories.Any(b => b.Id == id && b.HasCover), "restored approved book public with cover");
+Check((await new LibraryService(db).CoverAsync(id, 0))!.Data.SequenceEqual(coverBytes), "public cover survives service restart");
 await disk.PrepareAsync(data.Stories.First(b => b.Id == id).Chapters.Single(), CancellationToken.None);
 await service.RecordReadAsync(id, 1, member.Id, null);
 await service.RecordReadAsync(id, 1, member.Id, null);
@@ -270,6 +249,8 @@ Check(!(await service.ReadAsync()).Comments.Any(c => c.Id == replyId), "hidden p
 await service.ModerateAsync(moderator, "book", id, "hide");
 var hidden = (await service.ReadAsync(admin.Id, true)).Stories.First(b => b.Id == id);
 var fileId = hidden.Chapters[0].Files[0].Id;
+Check(await service.CoverAsync(id, member.Id) == null, "hidden cover inaccessible to reader");
+Check(await service.CoverAsync(id, moderator.Id) != null, "hidden cover accessible to moderator");
 Check(await service.FileAsync(fileId, member.Id) == null, "hidden file inaccessible to reader");
 Check(await service.FileAsync(fileId, moderator.Id) != null, "hidden file accessible to moderator");
 Check((await service.ReadAsync()).Posts.Any(p => p.Id == postId), "forum remains public when book hidden");

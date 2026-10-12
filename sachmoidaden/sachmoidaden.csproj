@@ -2,5 +2,4 @@
   <PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
   <ItemGroup><Compile Remove="tests/**/*.cs" /><Content Remove="tests/**" /><None Remove="tests/**" /></ItemGroup>
   <ItemGroup><PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.3" /></ItemGroup>
-  <ItemGroup><Content Remove="DemoData/**/*" /><Content Include="DemoData/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" /></ItemGroup>
 </Project>

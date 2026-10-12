@@ -1,0 +1,73 @@
+﻿-- TUY CHON: an cac truyen mau cu; KHONG xoa sach/chuong/tai khoan.
+-- Sao luu database truoc khi chay. Cac sach da sua ten/tac gia/gioi thieu hoac co bia duoc giu nguyen.
+USE [SachMoiDaDen];
+GO
+SET XACT_ABORT ON;
+BEGIN TRY
+BEGIN TRANSACTION;
+IF COL_LENGTH(N'dbo.Sach', N'HinhAnhBia') IS NULL
+    THROW 50202,N'Chay script 02_ThemHinhAnhBia.sql truoc.',1;
+IF NOT EXISTS (SELECT 1 FROM sys.extended_properties WHERE class=0 AND name=N'SachMoiDaDen.Demo.v1')
+    THROW 50203,N'Database khong co dau nap bo mau V3; khong thay doi du lieu.',1;
+DECLARE @Mau TABLE(TenSach nvarchar(160),TacGia nvarchar(100),GioiThieu nvarchar(3000),Email nvarchar(200));
+INSERT @Mau VALUES
+(N'Ngọn đèn bên bến sương',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Cánh cửa dưới gốc đa',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Bản đồ của người giữ gió',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Những lá thư từ đảo xa',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Nhà ga vào mùa mưa',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Hành trình qua thung lũng xanh',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Tiệm sách mở lúc bình minh',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Người trồng sao trên mái nhà',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Dấu chân trong thư viện',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Chiếc đồng hồ không có kim',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Mùa hè ở xóm ven sông',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Khu vườn sau bức tường',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Bí mật của phố đèn lồng',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Chuyến tàu đi về phía biển',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Âm thanh trong hộp gỗ',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Nhật ký người gác rừng',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Một ngày chậm giữa thành phố',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Cô bé và chiếc la bàn',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Sổ tay của người sửa máy',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Những người bạn ở trạm mây',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Lời hẹn bên cầu đá',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Dòng sông nhớ những cái tên',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Bức tranh chưa khô màu',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Chuyện nhỏ trong căn bếp',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Thí nghiệm ở sân sau',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Mật mã trên tấm bưu thiếp',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Con đường qua miền cát',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Ngày trở về làng cũ',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Gió qua cửa sổ tầng ba',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Bản nhạc của buổi chiều',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Dưới mái hiên tháng sáu',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Người kể chuyện ở quảng trường',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Xưởng chế tạo những điều vui',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Cách một hạt mầm lớn lên',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Lối đi giữa hai ngọn đồi',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Một chiếc ghế dành cho bạn',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Mèo Mây và phố nhỏ',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Đội thám hiểm cầu vồng',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Robot Nâu tìm bạn',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Ba đứa trẻ ở bến xe',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Cáo Cam giữ khu vườn',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Chuyến giao hàng của Gấu',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Vườn sao trong chiếc hộp',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Quán bánh dưới tán cây',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Đảo nổi của những chú chim',N'An Mộc (mẫu)',N'[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Đường đua xe giấy',N'Bình Vũ (mẫu)',N'[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local'),
+(N'Hai chị em và mùa gió',N'Chi Lam (mẫu)',N'[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop@demo.local'),
+(N'Câu lạc bộ sửa đồ cũ',N'Xưởng Mây (mẫu)',N'[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.',N'donggop2@demo.local');
+UPDATE b SET BiAn=1,NgayCapNhat=SYSUTCDATETIME()
+FROM dbo.Sach b JOIN dbo.TaiKhoan u ON u.MaTaiKhoan=b.MaNguoiDang
+JOIN @Mau m ON m.TenSach=b.TenSach AND m.TacGia=b.TacGia AND m.GioiThieu=b.GioiThieu AND m.Email=u.Email
+WHERE b.BiAn=0 AND b.HinhAnhBia IS NULL;
+SELECT @@ROWCOUNT AS SoSachMauDaAn;
+COMMIT;
+END TRY
+BEGIN CATCH
+IF @@TRANCOUNT>0 ROLLBACK;
+THROW;
+END CATCH;
+GO

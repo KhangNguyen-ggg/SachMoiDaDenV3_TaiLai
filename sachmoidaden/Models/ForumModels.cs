@@ -86,6 +86,10 @@ public class RegisterInput : LoginInput
 public class EditBookInput
 {
     public int Id { get; set; }
+    public IFormFile? CoverUpload { get; set; }
+    public bool RemoveCover { get; set; }
+    [Microsoft.AspNetCore.Mvc.ModelBinding.BindNever]
+    public bool HasCover { get; set; }
 
     [Required, StringLength(160)]
     public string Title { get; set; } = "";
@@ -123,3 +127,4 @@ public record RankedStory(Story Book, long Reads);
 public record HomeViewModel(List<Story> Featured, List<Story> Popular, List<Story> Newest, List<Story> TopRated, List<string> Genres, Dictionary<sachmoidaden.Services.RankingPeriod, List<RankedStory>> Rankings);
 public record RenderedFile(ContentFile File, string? Text);
 public record Actor(int Id, string Stamp);
+public record CoverImage(byte[] Data, string ContentType);

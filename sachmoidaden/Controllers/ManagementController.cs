@@ -45,23 +45,34 @@ public class ManagementController(LibraryService library, ChapterFiles files, IL
         var b = (await Library.ReadAsync(UserId, true)).Stories.FirstOrDefault(b => b.Id == id);
         if (b == null)
             return NotFound();
-        return View(new EditBookInput { Id = id, Title = b.Title, Author = b.Author, Genres = b.Genres, Kind = b.Kind, Status = b.Status, Description = b.Description });
+        return View(new EditBookInput { Id = id, Title = b.Title, Author = b.Author, Genres = b.Genres, Kind = b.Kind, Status = b.Status, Description = b.Description, HasCover = b.HasCover });
     }
 
-    [Authorize(Roles = "Contributor,Admin"), HttpPost]
+    [Authorize(Roles = "Contributor,Admin"), HttpPost, RequestSizeLimit(ChapterFiles.MaxImageBytes + 1024 * 1024)]
     public async Task<IActionResult> Book(EditBookInput input)
     {
         ViewBag.Genres = await Library.GenresAsync();
+        if (input.Id != 0)
+        {
+            await Library.EnsureBookOwnerAsync(Actor, input.Id);
+            input.HasCover = (await Library.ReadAsync(UserId, true)).Stories.First(b => b.Id == input.Id).HasCover;
+        }
         if (!ModelState.IsValid)
             return View(input);
         try
         {
-            int id = await Library.SaveBookAsync(Actor, input);
+            var cover = input.CoverUpload == null ? null : await files.ReadCoverAsync(input.CoverUpload, HttpContext.RequestAborted);
+            int id = await Library.SaveBookAsync(Actor, input, cover);
             return Notice(Admin ? "Đã lưu thông tin sách." : "Đã gửi sách chờ duyệt.", $"/Management/Book/{id}");
         }
         catch (BusinessException e)when (e.Status == 400)
         {
             ModelState.AddModelError("", e.Message);
+            return View(input);
+        }
+        catch (InvalidDataException e)
+        {
+            ModelState.AddModelError(nameof(input.CoverUpload), e.Message);
             return View(input);
         }
     }

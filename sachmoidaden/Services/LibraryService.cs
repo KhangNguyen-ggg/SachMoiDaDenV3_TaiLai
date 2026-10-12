@@ -85,7 +85,10 @@ public sealed class LibraryService(SqlDatabase db)
         var sets = await s.BatchAsync("""
    DECLARE @role varchar(20)=(SELECT MaVaiTro FROM dbo.TaiKhoan WHERE MaTaiKhoan=@actor AND BiKhoa=0);
    DECLARE @review bit=CASE WHEN @manage=1 AND @role IN('Admin','Moderator') THEN 1 ELSE 0 END;
-   SELECT * INTO #Books FROM dbo.Sach WHERE (ChoDuyet=0 AND BiAn=0 AND @manage=0)
+   SELECT MaSach,TenSach,TacGia,GioiThieu,LoaiTruyen,TrangThaiSangTac,MaNguoiDang,
+     ChoDuyet,BiAn,LuotDoc,NgayTao,NgayCapNhat,
+     CAST(CASE WHEN HinhAnhBia IS NULL THEN 0 ELSE 1 END AS bit) AS CoAnhBia
+   INTO #Books FROM dbo.Sach WHERE (ChoDuyet=0 AND BiAn=0 AND @manage=0)
      OR (@manage=1 AND (@review=1 OR (@role='Contributor' AND MaNguoiDang=@actor)));
    SELECT c.* INTO #Chapters FROM dbo.Chuong c JOIN #Books b ON b.MaSach=c.MaSach;
    SELECT p.* INTO #Posts FROM dbo.BaiThaoLuan p WHERE p.BiAn=0 OR @review=1;
@@ -106,7 +109,7 @@ public sealed class LibraryService(SqlDatabase db)
    DROP TABLE #Posts; DROP TABLE #Chapters; DROP TABLE #Books;
    """, ("@actor", userId), ("@manage", management));
         var d = new ForumData();
-        d.Stories = sets[0].Select(r => new Story { Id = r.Int("MaSach"), Title = r.Text("TenSach"), Author = r.Text("TacGia"), Description = r.Text("GioiThieu"), Kind = (StoryKind)r.Int("LoaiTruyen"), Status = r.Int("TrangThaiSangTac") == 0 ? "Đang ra" : "Hoàn thành", OwnerId = r.Int("MaNguoiDang"), PendingApproval = r.Bool("ChoDuyet"), Hidden = r.Bool("BiAn"), Views = r.Long("LuotDoc"), CreatedAt = r.Date("NgayTao") }).ToList();
+        d.Stories = sets[0].Select(r => new Story { Id = r.Int("MaSach"), Title = r.Text("TenSach"), Author = r.Text("TacGia"), HasCover = r.Bool("CoAnhBia"), Description = r.Text("GioiThieu"), Kind = (StoryKind)r.Int("LoaiTruyen"), Status = r.Int("TrangThaiSangTac") == 0 ? "Đang ra" : "Hoàn thành", OwnerId = r.Int("MaNguoiDang"), PendingApproval = r.Bool("ChoDuyet"), Hidden = r.Bool("BiAn"), Views = r.Long("LuotDoc"), CreatedAt = r.Date("NgayTao") }).ToList();
         var books = d.Stories.ToDictionary(b => b.Id);
         foreach (var r in sets[1])
             books[r.Int("MaSach")].Genres.Add(r.Text("TenTheLoai"));
@@ -153,7 +156,7 @@ public sealed class LibraryService(SqlDatabase db)
             throw new BusinessException($"{label} bắt buộc, tối đa {max} ký tự.");
     }
 
-    public Task<int> SaveBookAsync(Actor actor, EditBookInput input) => db.TransactionAsync(async s =>
+    public Task<int> SaveBookAsync(Actor actor, EditBookInput input, CoverImage? cover = null) => db.TransactionAsync(async s =>
     {
         var user = await RequireAsync(s, actor, Roles.Admin, Roles.Contributor);
         Valid(input.Title, 160, "Tên sách");
@@ -161,6 +164,10 @@ public sealed class LibraryService(SqlDatabase db)
         Valid(input.Description, 3000, "Giới thiệu");
         if (!Enum.IsDefined(input.Kind) || input.Status is not ("Đang ra" or "Hoàn thành"))
             throw new BusinessException("Loại hoặc trạng thái sách không hợp lệ.");
+        if (input.RemoveCover && cover != null)
+            throw new BusinessException("Chọn tải ảnh bìa mới hoặc xóa bìa hiện tại.");
+        if (cover != null && (cover.Data.Length is < 1 or > ChapterFiles.MaxImageBytes || cover.ContentType is not ("image/png" or "image/jpeg" or "image/webp")))
+            throw new BusinessException("Ảnh bìa không hợp lệ.");
         var genres = input.Genres.Distinct(StringComparer.OrdinalIgnoreCase).ToList();
         if (genres.Count == 0)
             throw new BusinessException("Chọn ít nhất một thể loại.");
@@ -184,11 +191,11 @@ public sealed class LibraryService(SqlDatabase db)
                 throw new BusinessException("Không phải sách của bạn.", 403);
             if (b.Int("LoaiTruyen") != (int)input.Kind && (await s.QueryAsync("SELECT TOP(1) MaChuong FROM dbo.Chuong WHERE MaSach=@id", ("@id", id))).Count > 0)
                 throw new BusinessException("Không thể đổi loại sách đã có chương.");
-            await s.ExecuteAsync("UPDATE dbo.Sach SET TenSach=@title,TacGia=@author,GioiThieu=@description,LoaiTruyen=@kind,TrangThaiSangTac=@status,ChoDuyet=CASE WHEN @admin=1 THEN ChoDuyet ELSE 1 END,NgayCapNhat=SYSUTCDATETIME() WHERE MaSach=@id", ("@title", input.Title.Trim()), ("@author", input.Author.Trim()), ("@description", input.Description.Trim()), ("@kind", (byte)input.Kind), ("@status", input.Status == "Đang ra" ? 0 : 1), ("@admin", user.Role == Roles.Admin), ("@id", id));
+            await s.ExecuteAsync("UPDATE dbo.Sach SET TenSach=@title,TacGia=@author,GioiThieu=@description,LoaiTruyen=@kind,TrangThaiSangTac=@status,HinhAnhBia=CASE WHEN @removeCover=1 THEN NULL WHEN @cover IS NOT NULL THEN @cover ELSE HinhAnhBia END,KieuAnhBia=CASE WHEN @removeCover=1 THEN NULL WHEN @cover IS NOT NULL THEN @mime ELSE KieuAnhBia END,ChoDuyet=CASE WHEN @admin=1 THEN ChoDuyet ELSE 1 END,NgayCapNhat=SYSUTCDATETIME() WHERE MaSach=@id", ("@title", input.Title.Trim()), ("@author", input.Author.Trim()), ("@description", input.Description.Trim()), ("@kind", (byte)input.Kind), ("@status", input.Status == "Đang ra" ? 0 : 1), ("@admin", user.Role == Roles.Admin), ("@id", id), ("@removeCover", input.RemoveCover), ("@cover", cover?.Data), ("@mime", cover?.ContentType));
         }
         else
         {
-            var rows = await s.QueryAsync("INSERT dbo.Sach(TenSach,TacGia,GioiThieu,LoaiTruyen,TrangThaiSangTac,MaNguoiDang,ChoDuyet) OUTPUT INSERTED.MaSach VALUES(@title,@author,@description,@kind,@status,@actor,@pending)", ("@title", input.Title.Trim()), ("@author", input.Author.Trim()), ("@description", input.Description.Trim()), ("@kind", (byte)input.Kind), ("@status", input.Status == "Đang ra" ? 0 : 1), ("@actor", actor.Id), ("@pending", user.Role != Roles.Admin));
+            var rows = await s.QueryAsync("INSERT dbo.Sach(TenSach,TacGia,GioiThieu,LoaiTruyen,TrangThaiSangTac,MaNguoiDang,ChoDuyet,HinhAnhBia,KieuAnhBia) OUTPUT INSERTED.MaSach VALUES(@title,@author,@description,@kind,@status,@actor,@pending,@cover,@mime)", ("@title", input.Title.Trim()), ("@author", input.Author.Trim()), ("@description", input.Description.Trim()), ("@kind", (byte)input.Kind), ("@status", input.Status == "Đang ra" ? 0 : 1), ("@actor", actor.Id), ("@pending", user.Role != Roles.Admin), ("@cover", cover?.Data), ("@mime", cover?.ContentType));
             id = rows[0].Int("MaSach");
         }
 
@@ -243,6 +250,17 @@ public sealed class LibraryService(SqlDatabase db)
     {
         await s.ProcedureAsync("dbo.usp_DocChuong", ("@MaSach", id), ("@SoChuong", number), ("@MaTaiKhoan", userId == 0 ? null : (object)userId), ("@MaKhach", guest));
         return true;
+    });
+    public Task<CoverImage?> CoverAsync(int id, int userId) => db.ReadAsync(async s =>
+    {
+        var rows = await s.QueryAsync("""
+            SELECT b.HinhAnhBia,b.KieuAnhBia FROM dbo.Sach b
+            WHERE b.MaSach=@id AND b.HinhAnhBia IS NOT NULL AND
+            ((b.ChoDuyet=0 AND b.BiAn=0) OR EXISTS(
+                SELECT 1 FROM dbo.TaiKhoan u WHERE u.MaTaiKhoan=@actor AND u.BiKhoa=0
+                AND (u.MaVaiTro IN('Admin','Moderator') OR (u.MaVaiTro='Contributor' AND b.MaNguoiDang=u.MaTaiKhoan))));
+            """, ("@id", id), ("@actor", userId));
+        return rows.Count == 0 ? null : new CoverImage((byte[])rows[0]["HinhAnhBia"]!, rows[0].Text("KieuAnhBia"));
     });
     public Task<ContentFile?> FileAsync(int id, int userId) => db.ReadAsync(async s =>
     {
