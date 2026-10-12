@@ -1,0 +1,8 @@
+@model List<RenderedFile>
+@foreach(var item in Model){
+ if(item.Text!=null){<div class="preserve-lines chapter-text">@item.Text</div>}
+ else if(item.File.ContentType.StartsWith("image/")){<div class="comic-pages"><img src="/Story/File/@item.File.Id" alt="Trang @item.File.Order · @item.File.OriginalName" loading="lazy"/></div>}
+ else if(item.File.ContentType=="application/pdf"){
+ <div class="pdf-content"><p><a class="button" href="/Story/File/@item.File.Id" target="_blank" rel="noopener">Mở PDF @item.File.OriginalName</a></p><iframe src="/Story/File/@item.File.Id" title="@item.File.OriginalName" loading="lazy"></iframe><p class="hint">Nếu trình duyệt không hiển thị PDF, bấm Mở PDF để xem tệp.</p></div>
+ }
+}

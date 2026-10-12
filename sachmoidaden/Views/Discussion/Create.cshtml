@@ -1,0 +1,3 @@
+@model CreateDiscussionInput
+@{ViewData["Title"]="Tạo chủ đề";}
+<div class="container page narrow"><a class="back-link" href="/Discussion">← Diễn đàn</a><h1>Tạo chủ đề thảo luận</h1><form asp-action="Create" method="post" class="stack"><div asp-validation-summary="All" class="validation"></div><label asp-for="Title">Tiêu đề</label><input asp-for="Title" maxlength="160" required/><label asp-for="Tags">Tag chủ đề</label><input asp-for="Tags" maxlength="500" placeholder="Ví dụ: review, nhân vật, cảm nhận"/><p class="hint">Tối đa 5 tag, cách nhau bằng dấu phẩy; mỗi tag tối đa 30 ký tự.</p><label asp-for="Body">Nội dung</label><textarea asp-for="Body" maxlength="5000" rows="10" required></textarea><button class="button primary">Đăng chủ đề</button></form></div>

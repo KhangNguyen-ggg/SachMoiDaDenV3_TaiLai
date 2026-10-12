@@ -1,0 +1,8 @@
+@model CatalogViewModel
+@{ViewData["Title"]="Thư viện";}
+<div class="container page"><div class="page-heading"><h1>Thư viện sách</h1><p>Tìm câu chuyện tiếp theo của bạn.</p></div>
+<form method="get" class="filter-bar"><div class="field"><label for="q">Tên sách, tác giả hoặc thể loại</label><input id="q" name="q" value="@Model.Q" placeholder="Ví dụ: Rừng sương" maxlength="200"/></div><fieldset><legend>Thể loại</legend><div class="genre-options">@foreach(var g in Model.AllGenres){<label><input type="checkbox" name="genres" value="@g" checked="@Model.SelectedGenres.Contains(g)"/> @g</label>}</div></fieldset><button class="button primary">Tìm sách</button><a href="/Home/Catalog">Đặt lại</a></form>
+<p class="muted">@Model.Total sách · Trang @Model.Page / @Model.Pages</p>
+@if(Model.Books.Count==0){<div class="empty"><h2>Chưa tìm thấy sách</h2><p>Thử tên ngắn hơn hoặc chọn tất cả thể loại.</p><a class="button" href="/Home/Catalog">Xem toàn bộ sách</a></div>}
+<div class="book-grid">@foreach(var b in Model.Books){<partial name="_StoryCardPartial" model="b"/>}</div>
+@if(Model.Pages>1){<nav class="pagination" aria-label="Phân trang">@for(int i=1;i<=Model.Pages;i++){<a class="chip @(i==Model.Page?"active":"")" aria-current="@(i==Model.Page?"page":null)" href="@("/Home/Catalog?q="+Uri.EscapeDataString(Model.Q)+string.Concat(Model.SelectedGenres.Select(g=>"&genres="+Uri.EscapeDataString(g)))+"&page="+i)">@i</a>}</nav>}</div>

@@ -1,0 +1,4 @@
+@model ErrorViewModel
+<html lang="vi"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="stylesheet" href="/css/site.css"/><title>Không thể hoàn tất thao tác</title></head><body>@{Layout=null;ViewData["Title"]="Không thể hoàn tất thao tác";}
+<div class="container page narrow"><h1>Không thể hoàn tất thao tác</h1><p role="alert">@(Model.Message??"Có lỗi khi xử lý yêu cầu. Hãy thử lại.")</p><a class="button" href="/Home/Catalog">Về thư viện</a> <a class="button" href="/Management">Về quản lý</a></div>
+</body></html>

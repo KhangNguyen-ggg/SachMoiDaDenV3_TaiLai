@@ -1,0 +1,5618 @@
+[
+  {
+    "Title": "Ngọn đèn bên bến sương",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "350eae913c995bcf9d1f84b1724a92ca",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-01-tep-1.txt",
+            "Size": 2263,
+            "Sha256": "40f0e681ba15d587063ae86c65acdf7461af5ed4078e85056157e0768239dffd"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "678d27377a36578fbdb0cc5772f6b53a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-02-tep-1.txt",
+            "Size": 2294,
+            "Sha256": "850b4185da30fa892e07dbb8d275b17ab1aaf00f6f87ebb9df4ad3c0b1c8d05c"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "c348a35e778951d9930eaa27132afd0b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-03-tep-1.txt",
+            "Size": 2266,
+            "Sha256": "664c1bb97dc3f9f50770b6dd48e7741c62c921aabcb6e48d16cbab049739e2d2"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "d1d070e21c9e50b1819ba8e0cad4f51c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-04-tep-1.txt",
+            "Size": 2309,
+            "Sha256": "538d98fec7dcbf2b0703b0e90384f655bbace457c08c6059c5a93b402b4f6405"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "db861ce2bd9959339106a6638f41a022",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-05-tep-1.txt",
+            "Size": 2319,
+            "Sha256": "a7de16f30cf5c32f065bfdcab5ddf2a722df3dd2e62adaedacb0b6f3ad4f06fd"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "adb6805806815e02a858374eb3dadefd",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-01-chuong-06-tep-1.txt",
+            "Size": 2306,
+            "Sha256": "fae764ff7ef035b2a2e2363e4d175a0fa0a3e85236a31eeaa7662cab2a7ab1d5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Cánh cửa dưới gốc đa",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "76f82803c6805f4b9374d1192ae621e8",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-01-tep-1.txt",
+            "Size": 2271,
+            "Sha256": "836dd836446ae4ce42fc967a25f1385031df014a845f2b15113e7ba21eff26e2"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "ffb5d7e7ae9e5f4ca8bc0fc43303590b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-02-tep-1.txt",
+            "Size": 2302,
+            "Sha256": "331ee2183af084de05e144850c297fae1601ec3edc746698e3a70d3b59337ac0"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "e3339841874d537993dbcee495e49907",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-03-tep-1.txt",
+            "Size": 2274,
+            "Sha256": "9b6f7e167e4ed74c89101c88140c77144fc173a10a744cc856cc2cca7aabda1b"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "6177d2ed3ef85879bc461f0459925bfe",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-04-tep-1.txt",
+            "Size": 2317,
+            "Sha256": "febd1cdfc54c23a95c86f3aa842f29c5ecffca2af52bb994c876a7a794ce1bb2"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "24bc89cc8ca0579e95931b3858f60e42",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-05-tep-1.txt",
+            "Size": 2327,
+            "Sha256": "2b39b49b1e1d091fa771e52e51f058d42cea70aa072be237f12f2f14be8e5222"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "35698f9503df5c31bd22d626c3f6bfe3",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-02-chuong-06-tep-1.txt",
+            "Size": 2314,
+            "Sha256": "724c8ab8b5dbe0cdd1e4e0afac881ef1f24af39fe5c9ea336a06b9ec29e56bb4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Bản đồ của người giữ gió",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "c1ac279f77ae5dbab0cbfc11b820f4e6",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-01-tep-1.txt",
+            "Size": 2289,
+            "Sha256": "5207aad12543c4a103d1209bfcbd6698e974402e61217f8a0d3054e453b798d8"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "f46b3b64273d59cca9214411bb6fa4f0",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-02-tep-1.txt",
+            "Size": 2320,
+            "Sha256": "56c0b6fd1a46704869d123b599759f7f82c5158fb07f1f35a66386b83166e035"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "97f9340e95ea575a9f10ad10374de05b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-03-tep-1.txt",
+            "Size": 2292,
+            "Sha256": "78249751553af9135cb0367b63ce289b0fbc345700d21e3d16e4182246d364a1"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "ac85f1943eb8545cb88bd3d6f61225b0",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-04-tep-1.txt",
+            "Size": 2335,
+            "Sha256": "d0e18c79083a2b0a2256fed21026c921a496a9a545a24289f18c5ef9005b60d1"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "3bed77d5ea105ec085cef1cef71750f7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-05-tep-1.txt",
+            "Size": 2345,
+            "Sha256": "636a5d45ae159e1868133a24a252504ddfc052b47ec7ba4bdc80bcd80f399b92"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "34bfa7b900c15f9aaf8668fe88447a8d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-03-chuong-06-tep-1.txt",
+            "Size": 2332,
+            "Sha256": "68bee438d7139fefe68cd2d74393a325ebee5015992f8dcdc341b302affd8d73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Những lá thư từ đảo xa",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "bf187eb07be559fabdd9e12d7b8ef250",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-01-tep-1.txt",
+            "Size": 2255,
+            "Sha256": "bf8e088dd2613f38ba106be9bcfa5c1b441e9defb949f1f6f927429458ccd4a0"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "6f3b836fdc3e531094722ce246a8e5fe",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-02-tep-1.txt",
+            "Size": 2286,
+            "Sha256": "7dfa9401bcec550920c047933105501d3339e18a73ef97fd602c74059c8500f5"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "14acbdd9d5d35bf0a4cbf0615503793c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-03-tep-1.txt",
+            "Size": 2258,
+            "Sha256": "28658aec655a67638e5bc19182de12e4c365eee6699b0a575ccb3dde4ab7c7d0"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "5481831c9d8f5cc9b005c8c090bd5f81",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-04-tep-1.txt",
+            "Size": 2301,
+            "Sha256": "e18560691c4616cab323a919427caf1495f7a8defc4d5664867e2943dabb4d55"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "70d05fb0999557efb755939fd80f833e",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-05-tep-1.txt",
+            "Size": 2311,
+            "Sha256": "53611bdac79e5e0ec60fea8612d43ac6fb1b0bd2c05f2ff32405c0d62863d620"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "96df23e097a85a80a84bd9071967bcf8",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-04-chuong-06-tep-1.txt",
+            "Size": 2298,
+            "Sha256": "ec8bccc09f3c7a058519363b0e3e2b3e9a590a6d007e98324993c7cc2bfd993a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Nhà ga vào mùa mưa",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "b9c575a5e36f53cc8286546ecf8ecf86",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-01-tep-1.txt",
+            "Size": 2265,
+            "Sha256": "0317986086e77d9fc223575f5c2a96fccd04391040dfe7c8f2764698cc53c948"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "1b82a8b53f0d59d9880bdf944ea9bb38",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-02-tep-1.txt",
+            "Size": 2296,
+            "Sha256": "4e9538889cf880214d8c1d66f84702513831b95dc55031a2b508ada9e31b7edd"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "e2dc996b7de2564092fbd65c13bdf5e0",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-03-tep-1.txt",
+            "Size": 2268,
+            "Sha256": "f5cb84e8b34dcbde75064fa6ff829fa87cf58933b0cb7f85abd9523d7fad7b64"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "235883fda5a8597c912c397466aa7bfc",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-04-tep-1.txt",
+            "Size": 2311,
+            "Sha256": "0eeb373d9ba7b036c2840c315d5c9a8e937d6048c8ddae618849ff8a4336031e"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "8f6d0bf6f8d452eda49f12f965b42575",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-05-tep-1.txt",
+            "Size": 2321,
+            "Sha256": "ec42dc9f79d0aa0647a16356d0b163481431ae4e261dfbd1c1edbe4936fc6670"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "88e0e5da19ee5cc48ccc9e06ba8bee5b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-05-chuong-06-tep-1.txt",
+            "Size": 2308,
+            "Sha256": "ae5cba9bb84eb0cc256e2b8907479c775eeb639d4990eab0b60e76f5491aaaf8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Hành trình qua thung lũng xanh",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "7ff480fca6055d669a01364ac242d31b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-01-tep-1.txt",
+            "Size": 2281,
+            "Sha256": "d9e4194ccf4dbd1020841d1c691e097d6608e4d6dd2433ce79666301190d2dc7"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "dbc3e1c96e775d588908aee4e1ccacd2",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-02-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "e2ecea1ec1fa74133c093707b47844399558b8ee72c2da7745f4d4ee52741111"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "67fcfc9f02fb579ba8e666160389ea5a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-03-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "2d1fe89cec2190df8d095ca16959900b9319e0ec291999456f930266cb3f1f4b"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "954ee4d5d585563d9b82c04ffac4a980",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-04-tep-1.txt",
+            "Size": 2327,
+            "Sha256": "ba4d2a227c29dc8bec3bd618c1120a6bedfad51e642fad6355cec45006998d80"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "e3b4729486955c558a1c184ad0461c59",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-05-tep-1.txt",
+            "Size": 2337,
+            "Sha256": "e54dee1501fbc82a978c94882735d65a9f7745a6471210da7ae11fa636c613f8"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "58b30e76a7eb5ab1bf21aeeaceab7e19",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-06-chuong-06-tep-1.txt",
+            "Size": 2324,
+            "Sha256": "43f934bfc593ff33ba6fa152ce6f1410ac1b487f5616139feb20aac83606366e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Tiệm sách mở lúc bình minh",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "57e4ab8c57b653c78ef6a745604b5794",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-01-tep-1.txt",
+            "Size": 2289,
+            "Sha256": "49f24bb29aa60557cbd5415f06bd260d42267de2352f5a252255aec6cbaf9b17"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "f51ac3ab2df55e919e752ded51b34680",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-02-tep-1.txt",
+            "Size": 2320,
+            "Sha256": "386b81c588189c38e555c9ac14f82f49ed19b9129614b444608bf4a24b52c60e"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "bbc92ae019715ba6a224192257457341",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-03-tep-1.txt",
+            "Size": 2292,
+            "Sha256": "c417f6e3e6fb5597a4f1d31ef4909d4863fce1163bf1762987f19176c0830f2f"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "55af10bb0da95ce19f3e3f9d0bdf3ddc",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-04-tep-1.txt",
+            "Size": 2335,
+            "Sha256": "16bc7077ee4ad8558fc5c945cd2a6ed78723ce4f74c84b1c25aecefa8d50f3ea"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "ee3640425f4c5d2798907aff5555b496",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-05-tep-1.txt",
+            "Size": 2345,
+            "Sha256": "a18b7900ec1bc1c78e88cd7d9da87f310cda4ec3e1a4f372509a6fa884767641"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "9638ed8ba086515fa7dba63f5edeeb8f",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-07-chuong-06-tep-1.txt",
+            "Size": 2332,
+            "Sha256": "624de7bd540a4590c30064b6c808e88eb37ee39c6df1a98b57c8b426adb25d34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Người trồng sao trên mái nhà",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "fc6b1f0f80b15262a692d4c85e7a5431",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-01-tep-1.txt",
+            "Size": 2291,
+            "Sha256": "b77310242a956c18b27d28fced406feb6ed4ca7b8bab050dd3cdd28885e63ae0"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "02180cc1bf0754a8b7bbd400e4ff0536",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-02-tep-1.txt",
+            "Size": 2322,
+            "Sha256": "ef44caf6f3fa86f233ea177582234d5cd2f4cb285476ee3b08ed42478b9445b5"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "4ec40b3f2e9e580baa6cecf32440f7b2",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-03-tep-1.txt",
+            "Size": 2294,
+            "Sha256": "c21c010e0fdf7828b3f70c504d3c38824f7f2c15d7d7fba5cda6d8be678a1fb9"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "700b8de22bea5489a079b3747b3ec82a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-04-tep-1.txt",
+            "Size": 2337,
+            "Sha256": "43e1e6b57161190abad4f26a4a1458b28b1d90c18e4ef654531d23074cbe2e72"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "7e5b741f07b65ceaaacad3943941c5b7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-05-tep-1.txt",
+            "Size": 2347,
+            "Sha256": "92cd93bb7e927e5431c98ccb6e2eb00e96b695f2518c20a8a8d559416aaeaa98"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "6dbdcce169ea5f3d81326b381ea58212",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-08-chuong-06-tep-1.txt",
+            "Size": 2334,
+            "Sha256": "542498602b4aed70b656350559842805c6f134937139e469dc23e8162a49e57e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Dấu chân trong thư viện",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "65e2c6c6b4ab57b8a988337e6ebd7108",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-01-tep-1.txt",
+            "Size": 2259,
+            "Sha256": "ee183b5f7a14d3f7314a0140c95fcfc449deaf74e8f9790692916d10cffea550"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "e3c2f8f17131540d9387ca7b0059d715",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-02-tep-1.txt",
+            "Size": 2290,
+            "Sha256": "29b69dab493d6ad58b82b372b64e18aba7910c0c4ee9653c886582e62a0064b0"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "a0993921c1ba5368bb5962d2232e7754",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-03-tep-1.txt",
+            "Size": 2262,
+            "Sha256": "98334ba11fe6941660e490536b0dacb9f28c3e2760478b5af355df97c35e27f2"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "79f9e09256a65715b08d7c5505c4dc6e",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-04-tep-1.txt",
+            "Size": 2305,
+            "Sha256": "d5858f4734c1522d221f7e3db34cb2db7bb24b544069a7d6c1deacc376fc2ba4"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "0b8223587fbe51ec99b0eab809fb5213",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-05-tep-1.txt",
+            "Size": 2315,
+            "Sha256": "18753aff0763f6dbb66f7dc08f30037b726fa71ff2d6029efc0feacbc42ec5c7"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "2701b6c92fb05ea6aecba5f49ab4f99c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-09-chuong-06-tep-1.txt",
+            "Size": 2302,
+            "Sha256": "73366b9e3dce85a373539bfffd0cd8c78878e1ed7f4776e5fac48ae2a0541041"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Chiếc đồng hồ không có kim",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "044a7d5bffcb5f938b3ff53d90b20405",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-01-tep-1.txt",
+            "Size": 2283,
+            "Sha256": "cf8ec9c93fc97ea3da7f877e360dff557f95451896ccef57d0997265d50d7da0"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "224ea644752c52528ac8612f420571b4",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-02-tep-1.txt",
+            "Size": 2314,
+            "Sha256": "2844bf580bae293be4ce5df343f86d9324fab90feddad69a33e4ac0617ed0f96"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "90a5fc3f573a539e948ec30bd045c74f",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-03-tep-1.txt",
+            "Size": 2286,
+            "Sha256": "62f9580b8ced6af3a60b50bb3d1fdaa063929f37f6579097f585a6611f712535"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "24a669e3dfff5929ac6d5b6edb2751e7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-04-tep-1.txt",
+            "Size": 2329,
+            "Sha256": "0da64a6a7667bbba985fbc423d218b16533bb7e68a77f6fc76bae831b0306206"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "9829323589b4562d95a7ae27f8d6a805",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-05-tep-1.txt",
+            "Size": 2339,
+            "Sha256": "df80b05874bd3152ad4fba6230a65d52beac066877f9788c3906833f4e87aae8"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "896389f8a308582dba47ef6e78f0ff4b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-10-chuong-06-tep-1.txt",
+            "Size": 2326,
+            "Sha256": "31e02f6c1fea60ac8d812e6ca8a2477287a0ce2f9f6b4fb8bd30d0e17d47bddc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Mùa hè ở xóm ven sông",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "0e3ad1a2ad705156ac5706bd693d385f",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-01-tep-1.txt",
+            "Size": 2269,
+            "Sha256": "f9155efba20562be09378c68919bc7d160665ef71fa8d1a758b0986e368da1e3"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "5af06a59ea7a5adb9b5f7b751234d6a2",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-02-tep-1.txt",
+            "Size": 2300,
+            "Sha256": "ddee66a4334838bcd5a09ab3b948d0b2c69c6de545a24315c7abd1ace5d58b26"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "9f33d2c15d3c58268358bf74584add63",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-03-tep-1.txt",
+            "Size": 2272,
+            "Sha256": "468797f513428dbb34e1caeb919283ddc8ef71a3e40f5402654553c69caf3b05"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "140af1d15aca53b78e3c48f0d7431475",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-04-tep-1.txt",
+            "Size": 2315,
+            "Sha256": "e4ec6e7dac849ca31842989b364f5318bd54df2e5c82c57207a1d815a594b20d"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "e65ac5c91c2f54f2a263527a711eeea3",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-05-tep-1.txt",
+            "Size": 2325,
+            "Sha256": "a09b51be37fbbcfdb56682700272383f9f781190d5f8bd519715d48cc2db01c6"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "24f988aabf525552bf4a7c01e763e0c3",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-11-chuong-06-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "c419ac0a8140da3ee325be31de2d5b2cd289549c88a48bea30a603ac2cf7de88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Khu vườn sau bức tường",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": true,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "df23273970005262b4b56b7870301cae",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-01-tep-1.txt",
+            "Size": 2253,
+            "Sha256": "4069633e9fe31ff890a4c01a4621d87208da9b437f42e91c372a9b1529d321d8"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "db1a6fe981d9553fb5d62ee213452598",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-02-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "2f0efa45c20fe5815c94d8534e0d429c000bb1c2c738891f73beca85ed7b086a"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "8b218a6317605122a2e19d7854a7e06a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-03-tep-1.txt",
+            "Size": 2256,
+            "Sha256": "d16e81c05ea0296d8c8b363ac53fe23ef6d7ef17eae9e81fc16301af71cf8d85"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "55bd1617aa3d5ecebc98c2e266c4dd42",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-04-tep-1.txt",
+            "Size": 2299,
+            "Sha256": "2b5462bd1238a5fcf53e7a7387a251f28bd7c28bf0f3372876788204b75f27fb"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "d965107cf70853ce87445e6c5ada4902",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-05-tep-1.txt",
+            "Size": 2309,
+            "Sha256": "9786e5f4e90d9239264074744351310e48c83a542ad9a246c820c44c6060b126"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "ba5f879967f95ad4a7877f2e41a3c86a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-12-chuong-06-tep-1.txt",
+            "Size": 2296,
+            "Sha256": "429d36ddf34f265a4e8c87fb7a48cfb05cac76337d6d9510cdf2e46157aca294"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Bí mật của phố đèn lồng",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "34ec8437f6bd5f168a02eb4823329e80",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-01-tep-1.txt",
+            "Size": 2289,
+            "Sha256": "fd584d1c03fbdfb1dafecc809c325779c0cfd5d12fab6e6591dcca383aeed78b"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "fb1002a054cb5b99961d48343ae8d98a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-02-tep-1.txt",
+            "Size": 2320,
+            "Sha256": "eb8402f24730246045e62e7698f881d9a6d28f3034b52025847156b6e6b37da5"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "ed076da45e7d516a9ae65a0e7bde630e",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-03-tep-1.txt",
+            "Size": 2292,
+            "Sha256": "27d38651210af7ade8ac96d4b1ff7aa7967213f25e0dbd022b45c83d9084c198"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "93bd0dc10c115184be3d5be545a8263c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-04-tep-1.txt",
+            "Size": 2335,
+            "Sha256": "f264b61d8a2c106351b8225b5557940a0a3f61d0bce40ce08699493d67a9e516"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "98602e1c030252adac6465371968aa42",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-05-tep-1.txt",
+            "Size": 2345,
+            "Sha256": "8cd263bd534e692443cebf863839e1bb72d9eb54ec6627e716273cd99b18b347"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "83ec098dcf0a556a935d60548f1c0191",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-13-chuong-06-tep-1.txt",
+            "Size": 2332,
+            "Sha256": "9daecc2cfc4b5dc518df2fa9d01c6db1dcfbdbe19192d531d3fb838d138b5870"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Chuyến tàu đi về phía biển",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "610baeb3b66f50cda1162173c9829000",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-01-tep-1.txt",
+            "Size": 2285,
+            "Sha256": "ba0d6a631138b0264bf98f0eafbdaa9593a788b2af8d5e3ec1cbe33f5a4664dd"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "e567f8e9e90d5dd0821d386ea1e83e87",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-02-tep-1.txt",
+            "Size": 2316,
+            "Sha256": "13d00d8c86b5bb4bd02d2e332672ada0df7865e7861672e41e0a87f8bc4138e6"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "f1115dfa9edb50648cf87d8551d442ed",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-03-tep-1.txt",
+            "Size": 2288,
+            "Sha256": "705878978f32bdca6150af6d3ccfc7efd9957763f7b42ea6c6f9147582595def"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "531bb3d9d49650ea91caf4b85fc61a92",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-04-tep-1.txt",
+            "Size": 2331,
+            "Sha256": "e4e23ecdb6a04e6609ce1d5c862f9da62ac7dda998eede8a46226d7f8c21e5c5"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "12ddc83c2d4257d4b5591524be00c367",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-05-tep-1.txt",
+            "Size": 2341,
+            "Sha256": "312abfde8bb20fa39f4e6c6c58006a92d1c90ab23866274c7e0648b44fe67562"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "f325458097e8564395f9256c228b612c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-14-chuong-06-tep-1.txt",
+            "Size": 2328,
+            "Sha256": "682143753c246f409ba386652e5a4b405d5c317bf5384bf29188393364104298"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Âm thanh trong hộp gỗ",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "b933303bf5f553b9af5174d3de6fdcfc",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-01-tep-1.txt",
+            "Size": 2275,
+            "Sha256": "d7d594632ca4fd15c81671b3c8cf04679b44c60b950bcb1f6d3eb980edea61eb"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "fafd662500085d4bbde5a40d3dd5dbd9",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-02-tep-1.txt",
+            "Size": 2306,
+            "Sha256": "c07a3109c8cf0fa7fc283136e1c0daef4bb0be41141836538213f7b4451b82d4"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "5b32f362dad559b6bbffee5b0895cdc1",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-03-tep-1.txt",
+            "Size": 2278,
+            "Sha256": "2e19f13d3212adc6c214514b3adc4106f31af9076d095cbc8faf9f78891c83a7"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "7bd37ecd5adc505694c59e0f0115db04",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-04-tep-1.txt",
+            "Size": 2321,
+            "Sha256": "8036393beadeabd16aaa5d045aa9354bca8c709fc4fd140a235598de4fd7fd0c"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "cacba80625d85af886362ea19225346e",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-05-tep-1.txt",
+            "Size": 2331,
+            "Sha256": "dbe5015e0ea828557e2847cd113925582aeb750fbde2646f5f9f2292dc2b5a37"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "c82a9d87024c5269ab98981a5725cfae",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-15-chuong-06-tep-1.txt",
+            "Size": 2318,
+            "Sha256": "5e36029089afc182d852287971a3269ae01d6c183b46c1d10093c6954d719c8f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Nhật ký người gác rừng",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "359feeebd8ea59adaf8e6f5a7548bfcf",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-01-tep-1.txt",
+            "Size": 2281,
+            "Sha256": "484f2d3ddd5a8ef88d0a8f9e6e418665c0ecb3e98a97284018939fcd16ac9452"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "12f12676184559b9911469147fdda1a2",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-02-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "617dc54f9852cf38ace30a6759141e05163c330069fdf5a3a0932bbd99ef41ba"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "5499e517f63c552ba7c62a600b9c7715",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-03-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "197a837f1f28ac5bad48853f87fce4cb482153f1dd3259c83f68f744dbe287f9"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "2c2f7be0f17f52dbb7380930c4b9bfe3",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-04-tep-1.txt",
+            "Size": 2327,
+            "Sha256": "f85abec40c4c0f25040ec2451e54e6ff912dd3db9eeb051f56d867aeacf5c133"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "7f611c568ade54abaad307422b6e88ef",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-05-tep-1.txt",
+            "Size": 2337,
+            "Sha256": "44de0b7f41c90a0df2caefdaa82aa0b696123d8276609bfe3c90379bf61193d0"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "0c9fc03b2f03504d870d268a1ec0cdbe",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-16-chuong-06-tep-1.txt",
+            "Size": 2324,
+            "Sha256": "5b98035544df0dcb8b45e6f1f671f7b7f801797f093b473df29d1bdb278bad85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Một ngày chậm giữa thành phố",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "1855f764375057a79289689d9b198899",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-01-tep-1.txt",
+            "Size": 2277,
+            "Sha256": "f185c415f3212f06542f4df7287de09feb998b25a7934de94e210e90185cafe5"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "4f25244264795b37896e5a2d4d1bcf06",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-02-tep-1.txt",
+            "Size": 2308,
+            "Sha256": "e994b65e9490e93ac8da71cb7e3118af65c57f4fedd5e29443575e17faef96af"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "9c70edbaaec453acb1acc9c4a48b7370",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-03-tep-1.txt",
+            "Size": 2280,
+            "Sha256": "c2e6a9201f7a8d29110e2e547f881bc616f7b660e5606b0600a54e6f91db298c"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "09b151c367015362ae4f2fb1fdf15e9b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-04-tep-1.txt",
+            "Size": 2323,
+            "Sha256": "a712b005f4d11255530195d870b480bb2a03525757c72bb4167c348379d85c53"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "df2e46f1ad275822b4d8bd63c382a5de",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-05-tep-1.txt",
+            "Size": 2333,
+            "Sha256": "9df02f3217dc48f32dc8e74fd580198c3c7c8136b5eb3eac6ef1e9f283fe4574"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "444b85a08d0a59da91c4b357fbe7c74c",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-17-chuong-06-tep-1.txt",
+            "Size": 2320,
+            "Sha256": "9a27d52372ac9f0b9536a700a4f9c4e580f79385b012819d7c4c026433912873"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Cô bé và chiếc la bàn",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "79b15b4ebd2a5e56a8547b229d961004",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-01-tep-1.txt",
+            "Size": 2267,
+            "Sha256": "98dab0878094332cbb2f8d6ab363b0d9b93b4a679f25a1740d77cfd357e6961c"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "efcdcb1feb9c5531b105d8ce38394faf",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-02-tep-1.txt",
+            "Size": 2298,
+            "Sha256": "e6e80c4be179147aad4656542931433be785c6e93d15337e773475f31ce480fe"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "a484775e22815582bf76469fdf309bde",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-03-tep-1.txt",
+            "Size": 2270,
+            "Sha256": "f4c98a1d81faf91396907d320e0877c3232d7f45d6e84e3c8546af79f8d5cad6"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "6dab1a3e6c3b579594eb0f512f5de5ca",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-04-tep-1.txt",
+            "Size": 2313,
+            "Sha256": "f2c0fe545dda0d13c66beadeb831c4279263576bbd76fecf81885475719d5a81"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "754ce11b19bc5c80b0ff4c6d7e7e61ed",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-05-tep-1.txt",
+            "Size": 2323,
+            "Sha256": "948e95c1519d3f86685ae267bf047ddc9967c9ab08d07dfc07db9cbf661c72e8"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "819c98ae26ee5d478b2d07ef3e772f55",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-18-chuong-06-tep-1.txt",
+            "Size": 2310,
+            "Sha256": "ba67b37875de7a8044b905d31d50d3f537c92bdaca6cc4575cf5c41c4f8092ef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Sổ tay của người sửa máy",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "1a3b2d8d472c59c48151baf997243c71",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-01-tep-1.txt",
+            "Size": 2283,
+            "Sha256": "662e8955e46eaa469b069bf0d265fdfa39aabb7db06aeb692f4fde2a33491766"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "c91815966d8c52b8a8b13eed339335ce",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-02-tep-1.txt",
+            "Size": 2314,
+            "Sha256": "7af2cd1c27c88246dbcd37636a387454cd323234034b1427e156933a7b3d3258"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "4529563d521d5ad38ae5a19186ca95f5",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-03-tep-1.txt",
+            "Size": 2286,
+            "Sha256": "e88724cf06b90853b2e9b864a9f92f1c1f81ae3eb15e5a84b27cff7b9585458b"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "35ca3660cce9510a8ed0c58ed5b5084a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-04-tep-1.txt",
+            "Size": 2329,
+            "Sha256": "9f5ea8e4fc20ebd86dc1684d8867d9ceb235bcf69d5b33ddfbbd88740811739f"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "7551d7f65618540fb7c8ab25b99e1910",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-05-tep-1.txt",
+            "Size": 2339,
+            "Sha256": "e9935eab5f3aba83d49cf5a243d6bae6ff34f4dedef504b337c905a63180f4ce"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "2975f0849c4c536fbdea24a7f941c78d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-19-chuong-06-tep-1.txt",
+            "Size": 2326,
+            "Sha256": "6d393003ef43c42cf9e5c626229295b8ed6bd6758001b43404bdf6e6690e0953"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Những người bạn ở trạm mây",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "581105844429543dbbc961ae7b8a0e57",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-01-tep-1.txt",
+            "Size": 2269,
+            "Sha256": "8034ce697afa474eebcdfe92b3606e61e7d3b9a03bc08a5dcea411d8d2e8f6df"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "00ff1a4018705857af13f737faf32d41",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-02-tep-1.txt",
+            "Size": 2300,
+            "Sha256": "845a04d2aed34c50104af95eafc795f8056346e5a07409c950fb91b64cb84fa7"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "97f98cd013c55423a307cb9bdfa60951",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-03-tep-1.txt",
+            "Size": 2272,
+            "Sha256": "3efe0d9a0575b6fc3517bc541cbf6665ca5c1de62526a93ee05b5333a5fb2cae"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "35e64b4f88a658718b3e6060d777daad",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-04-tep-1.txt",
+            "Size": 2315,
+            "Sha256": "ef5745fdadac455a20295f98e0271a556afe399222d032cd766a2cdf08a24f97"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "e7cdffd1672856c28a97418098e284f8",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-05-tep-1.txt",
+            "Size": 2325,
+            "Sha256": "7a1ec250e44e31317c7fb19d795890b4a42f73e60bff886412587373854c3738"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "0b82f8bc352f5b6486ca5cdcdb94eca4",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-20-chuong-06-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "70c469ef9a1598343124bdeea83cba1db0cd843b8574c2efbe8513817e0b8701"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Lời hẹn bên cầu đá",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "227fa7eedce25cd7ad419c94cf86bdd7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-01-tep-1.txt",
+            "Size": 2275,
+            "Sha256": "edc7d72b76122cd6c7caa1d50c643c6792def7803df9158308845f034d187384"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "e43eeb1958ab5f32bab7c8f92315e4c6",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-02-tep-1.txt",
+            "Size": 2306,
+            "Sha256": "2e6396955a0afbfb114bc8cb8c922734c3d6101a843625b5b669efdf0f575db1"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "8d25ee74c49152aeae0922e6df7d5024",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-03-tep-1.txt",
+            "Size": 2278,
+            "Sha256": "2cbb441367e2fe81850e88d84047b7c8bacba1e95d8bbe89270f3666ea001b8f"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "19f44210b4705578b80249ecf52d5fd1",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-04-tep-1.txt",
+            "Size": 2321,
+            "Sha256": "9caef8877ad20b743bc2b4a2e28a48d8a9c09c13482232f94da4ad775ff27024"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "4d246b941a615bcfa078c2fea2d7536d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-05-tep-1.txt",
+            "Size": 2331,
+            "Sha256": "43db345e5cd2b25a6af1e108dc7d9f80166bf7bd9f648a56ca8da821be00fcc9"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "b32d9f6e390358419b995b2c1af16572",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-21-chuong-06-tep-1.txt",
+            "Size": 2318,
+            "Sha256": "9cf914c4c96ef49da3d9d0cd0c0a384ce2e7bc8030a1bf2ca4261273751ccc79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Dòng sông nhớ những cái tên",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "f8c1e965579b508f825aa2e1beba902f",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-01-tep-1.txt",
+            "Size": 2285,
+            "Sha256": "d9569974e5ad6fd3e20f359a1f7065d82920fa9845a7f92fd7c8bcb87a64d1fc"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "c22950644c1852b88eb4d9a063cfdb83",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-02-tep-1.txt",
+            "Size": 2316,
+            "Sha256": "ff06b438e41392a068f823b722f5231edea1ded7d6533917418a8bf20992f088"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "7108060d51435f2598d348d9a7620a49",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-03-tep-1.txt",
+            "Size": 2288,
+            "Sha256": "a3eb3a8b8479ebb3147fc773dcad2a7bac5599b3bdb89d7b5d9e18858a5437fe"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "20479e576d4657d6948a8a315f99c617",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-04-tep-1.txt",
+            "Size": 2331,
+            "Sha256": "9657725af4266b2bcd8c3788879e2f184f66fb0ada6487407c04407f47a055e0"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "4b85ef4d963354f29ea45be0be893c5d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-05-tep-1.txt",
+            "Size": 2341,
+            "Sha256": "624b4ef00de79dce201cd4a77d21e330b5caf1754e588a1d538c281e3d20df43"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "ecdab7af49bc57daa0af8898122c81d5",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-22-chuong-06-tep-1.txt",
+            "Size": 2328,
+            "Sha256": "02078dad04d48518e87809c2be37bc5ef83d19e2a6675bd03e6ccc40873cc60f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Bức tranh chưa khô màu",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "2e22aadf35965937a3825460c8d447f6",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-01-tep-1.txt",
+            "Size": 2277,
+            "Sha256": "c0cdf33d553b5166bb7103b436a9d28d7bd87e2dc82d08d2975f585b3d322c33"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "53f5702bc186538dae94a48e37bc3caa",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-02-tep-1.txt",
+            "Size": 2308,
+            "Sha256": "db7019dc5ed6c21f309e0f0541f619422229e10cf344b4f1bd276b1c0a263798"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "cafe171617eb53f6934ce0280edc37ca",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-03-tep-1.txt",
+            "Size": 2280,
+            "Sha256": "f98237b27cee34039a7c21ecb19edd36284933244c8db9df65dd850a6c419eba"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "865151625e0d526a99af3d42b88aeb09",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-04-tep-1.txt",
+            "Size": 2323,
+            "Sha256": "3abc9f154e8f460b0d2470761d19ab5efa575ff8e02e4172735232a91c424d0f"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "c52b5bb2d6e35cc0a2df366396dfad39",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-05-tep-1.txt",
+            "Size": 2333,
+            "Sha256": "930d7cd0c080b473e559887ff1deb0294e4b86eb404e7f3693319ad6dd18eb93"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "f2531cb0dd86575592d98e51220faef9",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-23-chuong-06-tep-1.txt",
+            "Size": 2320,
+            "Sha256": "61277e7d6cb10f1cfca52d503b5d645e2fc49f74c92a8add3fda12fc26db1778"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Chuyện nhỏ trong căn bếp",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": true,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "d7f0325c1106580bba0d7944ca83dbaf",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-01-tep-1.txt",
+            "Size": 2281,
+            "Sha256": "d3e1b9192f0af3fa182e5649aa169d3addca0d7f72681387fe54e2dd9208e2cf"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "6524efe3646b5c2fb1081a3007c4a5ad",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-02-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "bc02519e4c46a26854005a6eaee860a35a1732fc7817324d0172065a1497e85d"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "639f227897175cce84b4b417f65b6603",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-03-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "abdc1cc1dff7127795dea9fbf4802672378355e1ba8bc7b88adeb85a5ef69e06"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "0913b4219ee35fd9a5e7c37fe2929ccb",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-04-tep-1.txt",
+            "Size": 2327,
+            "Sha256": "4062b54061c6f8e86960444c08730cf06d2374e446c32e22290e5e83feb5c0c8"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "fafaf04ccadc5b44b96e58c328a3c892",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-05-tep-1.txt",
+            "Size": 2337,
+            "Sha256": "eaf472f6217b18876f30412e56f4eab8587e021d20c9fdc7b7388bd99c8f2904"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "269416e03a785288adcfe6bcfeaa622d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-24-chuong-06-tep-1.txt",
+            "Size": 2324,
+            "Sha256": "1824fd1185d19e70bf80d9c016c871f203bcdd1395817aedb3ce5461818f3a8e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Thí nghiệm ở sân sau",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "b7bf45f324ab51cb825bd08cd75b6109",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-01-tep-1.txt",
+            "Size": 2253,
+            "Sha256": "3171cbe7e60b262cf1117afc81cca936d62abad803d9d6610b73a85ee265e3fc"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "d583885ce7d65f4cb0a7c7d7c0ba702a",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-02-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "771b898b9fc711b7adb5832406e5490bcf49bbeccf2d1be14adfd889889b77d8"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "bf825ccaff7b5f1c82f9517e25ff06a0",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-03-tep-1.txt",
+            "Size": 2256,
+            "Sha256": "31623af7830c4bb2a3bfb2dde3f132b8c96db9136d1a260415e349524f18cdf2"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "feffb1aa8d3e585fac53832bb0f5e2f2",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-04-tep-1.txt",
+            "Size": 2299,
+            "Sha256": "b73d63e044378c5e4a326e042aaa656dca755f12b9f5008c9f2416e0692aff48"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "b9408b0e816b59e4b1842d4f6b050544",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-05-tep-1.txt",
+            "Size": 2309,
+            "Sha256": "1b57d986b383bfef133b5f7416e81f78ca9691009a9c3605ef962f4be7b8d6d0"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "040be4f71c0b5dc0a28994227beab40d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-25-chuong-06-tep-1.txt",
+            "Size": 2296,
+            "Sha256": "0a0bab025655d05a57306cc096fd0bc815555058fefa8b3d5e63b51a833b9dae"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Mật mã trên tấm bưu thiếp",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "fd1c9bec3566556e87021f5a3f2eb218",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-01-tep-1.txt",
+            "Size": 2281,
+            "Sha256": "daea294b394ed440b393ff92130edf2275d40c6a84c3a8fb7d3f9354752a56f9"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "2abb65792768520f9d5e33af36741ccc",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-02-tep-1.txt",
+            "Size": 2312,
+            "Sha256": "73b838b52d92d50c826b9a2f74d219e4559c89804da6a263030ff10124c466eb"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "d7bc5701d08e548e852dae0adcdf4a8d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-03-tep-1.txt",
+            "Size": 2284,
+            "Sha256": "f73f886b2420001d43c7a195264578952516b8b244f148584a91da574c5c6943"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "6718c1c946135629b295fa00c7474b87",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-04-tep-1.txt",
+            "Size": 2327,
+            "Sha256": "49e9b1d97be557786a174c0a6bf69ca7691bef6b8b10839a43ea8bd38a43a6ea"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "089993f8822b56c98c49530a7075f623",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-05-tep-1.txt",
+            "Size": 2337,
+            "Sha256": "587592a528746da762325db1b0e911d858ef0aa20463977bd628880bfcdc456a"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "be41bc821fda58c9809660c8bd60922b",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-26-chuong-06-tep-1.txt",
+            "Size": 2324,
+            "Sha256": "abf7d5772b85b309aa4eed1a00ee2b49480e873e5bdebacf858d60765b23c1b9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Con đường qua miền cát",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "9c01d10608d357e58bbcd31fc17ca2bc",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-01-tep-1.txt",
+            "Size": 2273,
+            "Sha256": "fd362e5c496cd6f37e2d951db78232553338511904a1c7cc6b679ffbbc03c399"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "bd2deea6eff05c49be58364b7379f3d7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-02-tep-1.txt",
+            "Size": 2304,
+            "Sha256": "b5af0d36da34fbd4c8f0757a4100a52f58dc90bb4a2ea650bdadcd6ad5b34e03"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "85f2e9f174625fa088c8d4db4b3d82fd",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-03-tep-1.txt",
+            "Size": 2276,
+            "Sha256": "4b621b5e0691bf85506bd361ddb8a3f48de313a9c4f9313e410dee6fc71485bc"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "2ccf4a69518f5e2ab39c64b60be0b80f",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-04-tep-1.txt",
+            "Size": 2319,
+            "Sha256": "a60cbaf575643e92d8bfdead9524cad5c24e3ec0708cf4b5028b084aad8306d6"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "7328f15e8705582888baa73383116284",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-05-tep-1.txt",
+            "Size": 2329,
+            "Sha256": "5fed888a3122d3b213e6dd3e311c5f7a27030c37e82b7ebf81e98757ea2fcf7d"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "463f5338e24e5a518298b5de3c9f0a25",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-27-chuong-06-tep-1.txt",
+            "Size": 2316,
+            "Sha256": "689db4f0a1512e79799cf5649d575d384018959c1144d423bd6c65de8fd33052"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Ngày trở về làng cũ",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "3bdb08af4671541f83130ee69a15f5a7",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-01-tep-1.txt",
+            "Size": 2245,
+            "Sha256": "aa150a31279972a29d3813c4f74e0a0344c29ba0fddf916c4b1d4e5a2cf1ac44"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "0213d1c2088e5307bca76d72e5301619",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-02-tep-1.txt",
+            "Size": 2276,
+            "Sha256": "f2c34fced90b05bbb3691c0d32142de49c95a728f22d5c1419a3e9ebb852ef08"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "558bfcf148d4530ba4a1014e65fd0f53",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-03-tep-1.txt",
+            "Size": 2248,
+            "Sha256": "2686ca7afff00361e9579d855209c5e003459beef322c83808948406c46ac207"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "feea45eb2b655e0da6ab38c17b2a344d",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-04-tep-1.txt",
+            "Size": 2291,
+            "Sha256": "aa0598629bd755667851f275d490fe56e9c41a91bccfe18924846fb68239a3f9"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "cbf062a1766a59d5845e892703c0a835",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-05-tep-1.txt",
+            "Size": 2301,
+            "Sha256": "f93907c63fd7b9016194d5ab4970616d28b5a5cb65e87e05298fbf2384cd0a72"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "e65b8402761a5ce88dcc2ae36f9cdcc6",
+            "Order": 1,
+            "ContentType": "text/plain",
+            "OriginalName": "truyen-28-chuong-06-tep-1.txt",
+            "Size": 2288,
+            "Sha256": "8609a23d6e64c6446f014d86467f24267e5d2840e5ee17f7180bf6254e55da18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Gió qua cửa sổ tầng ba",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "c33465a3188d5e05b477f774eca8333c",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-01-tep-1.md",
+            "Size": 2284,
+            "Sha256": "0cd9f444dd10500402809b9f444cb21714f9517922ed8d2045815fbba73156e2"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "02f8b973845157f497f0a043fc78a2da",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-02-tep-1.md",
+            "Size": 2315,
+            "Sha256": "2ef27f983c70135ec94f996466bef11d8e0d5fc4a715f2a4bc0edac01012aaad"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "b68398e585715ffd922b0e19410449c3",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-03-tep-1.md",
+            "Size": 2287,
+            "Sha256": "77b2442c31a49d94d8d678b0be4bd53f3c131aeca0b6913d0f25d6c3cee4a46c"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "3e9934e9ea9c5b46b40bda35ca36887c",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-04-tep-1.md",
+            "Size": 2330,
+            "Sha256": "7c54dbc78b90ca67f08850175f9ac05c2fcd08fab584bea373ecc870b2eea1ce"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "3209c7f0f08c5fc587aa9e07e5a2cf95",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-05-tep-1.md",
+            "Size": 2340,
+            "Sha256": "018958035562330c4d30436b11fdf537242c2e598115607f19e04096db346925"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "d2cf856a0b185bb5939dc6a343f88647",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-29-chuong-06-tep-1.md",
+            "Size": 2327,
+            "Sha256": "212da843ecd5ff875d3a29560ade527cf632898b7731c08b356697b10667ac12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Bản nhạc của buổi chiều",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "71deae87da9456a798072266db26f480",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-01-tep-1.md",
+            "Size": 2286,
+            "Sha256": "3b6baad7ad0152944b71d4d171e0db3f23b36965c1aa9c157a889aa300183001"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "7ee377f25325503886cdb0594acc00a1",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-02-tep-1.md",
+            "Size": 2317,
+            "Sha256": "3002b43e4052d45877e384fc82f77a03a9d397e61138e6525f1cd5a44b91577b"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "f3f8f10e8c585442943fa87578b21428",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-03-tep-1.md",
+            "Size": 2289,
+            "Sha256": "234c282f4a82041df08f173af888193f616f70eacda95241c53280fff4469c30"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "7d44cfde349d5ed086febeffd25c06ec",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-04-tep-1.md",
+            "Size": 2332,
+            "Sha256": "398e06297541cec4d2db9934444474960e9d0054aa532f1a7e8d1854398c7e90"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "7d47ca52d10b5e81960624b33ac03b6d",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-05-tep-1.md",
+            "Size": 2342,
+            "Sha256": "14a33274bc68b496d4c1f8a97980490bfd528398c1cbf951bba70f8fa2a5019b"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "ddd704132c3d5716993a31e73946c4ff",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-30-chuong-06-tep-1.md",
+            "Size": 2329,
+            "Sha256": "d48097df58a4b16f3ac5b62693f4cbd1e38077670d38d8e229889cb015b93105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Dưới mái hiên tháng sáu",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "49509fc305815c83b43bb63e4f549482",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-01-tep-1.md",
+            "Size": 2288,
+            "Sha256": "63a5dce54208db2615e24d9b994bcdc64404a9e98701b595211a5f6b954787b7"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "acf3801e033057bebe8ac53a43c2b931",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-02-tep-1.md",
+            "Size": 2319,
+            "Sha256": "97606a91fba42508d80e491f90bc8ba7596ca4d360ed1611b0b0c7073c8c4b34"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "702f8a26de5c507e90a214630e5c0d98",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-03-tep-1.md",
+            "Size": 2291,
+            "Sha256": "24496dfbf49643a4f31d0d546bc322936f33b234ce77a95a88feb387126bdcf7"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "e51b73945d9c5d1b8274c13dd1fc887c",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-04-tep-1.md",
+            "Size": 2334,
+            "Sha256": "67be41c80d6f0aeed804877e9071367ce2fffd7bf68581f59bf578a55e0176d6"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "bbc5a86eccf858d888193c97f65466e3",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-05-tep-1.md",
+            "Size": 2344,
+            "Sha256": "00b5280c6657096b0fbd29d0870d2799ac8160248c5675d2f850d38ebc697558"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "60e07c618b51559e9674c21155b3667b",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-31-chuong-06-tep-1.md",
+            "Size": 2331,
+            "Sha256": "b2eda0ec6c9bc59fcc0a7b7a5ea637fbdac517753050cf363f30d99cec62bfab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Người kể chuyện ở quảng trường",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "ce86db316c495f17a2de71f6b41c0637",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-01-tep-1.md",
+            "Size": 2312,
+            "Sha256": "9bbf8534d1c239f5c32b72f0e18ac15c0d6656ef7a5475370f74788930415d25"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "6805af508391540f922d6ec8d89ec257",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-02-tep-1.md",
+            "Size": 2343,
+            "Sha256": "8e42557679c43a194b4fcb81bc23f118a9debfb1586c0338967af55352394184"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "44e44a254f705d23bf82f7c84d7c3107",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-03-tep-1.md",
+            "Size": 2315,
+            "Sha256": "43cb58108aa658f34dcbdfd0e3d16d7a38223e689e5323f67d671eda6030b40c"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "ee82c29ccd59545b8854a58097a54fe0",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-04-tep-1.md",
+            "Size": 2358,
+            "Sha256": "c7fb2c017bdca79b264cab4b1a4684ea2a037012e138ca361bee4c14da86e9e0"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "89021ba9fb0f5838bbe131bbfbcf687a",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-05-tep-1.md",
+            "Size": 2368,
+            "Sha256": "944ef5ebaf55695c9c3abe6b8c297edb69c26d6522ae35d20383d3ee82ae312b"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "55d00468b1e657e6942799b75bcb7174",
+            "Order": 1,
+            "ContentType": "text/markdown",
+            "OriginalName": "truyen-32-chuong-06-tep-1.md",
+            "Size": 2355,
+            "Sha256": "37070f46a1cb4b497f60b0d75e4e219af217834caa176826670fd19e98df604a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Xưởng chế tạo những điều vui",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "62e5bec888c554b7bf8caf206c161a6f",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-01-tep-1.pdf",
+            "Size": 49032,
+            "Sha256": "380ec5774d3c9c52ae7fc6e38c12f38ade5d4f44f82c75a99fc48c352836fb77"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "6ef7634886915b45b1d77073565436b7",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-02-tep-1.pdf",
+            "Size": 49022,
+            "Sha256": "254d2eb48e2e479690755140e5c2cbfa25aeb5b03b392f371bc7b4c646429416"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "c93b22c59cf6515bbb0de0a01b959a93",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-03-tep-1.pdf",
+            "Size": 48968,
+            "Sha256": "f2369acbed355386658997a0600f27f7f44c12c111718b8d92df479ffb8b4bf9"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "fedf4843a348589eb038c492f053399a",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-04-tep-1.pdf",
+            "Size": 48946,
+            "Sha256": "158e4732ff337bc942a7cba9e40fd33481f2500dbee79c69f44a3a2d0c0fae8c"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "30da23b707815439a56d48bfbbc89351",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-05-tep-1.pdf",
+            "Size": 49007,
+            "Sha256": "a6951b62d8bc6e7e2a64d3f409fcd3fc6306951871b0de568abd3031ac56fde4"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "48bc0a46746a5eaab37e75d67010ae25",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-33-chuong-06-tep-1.pdf",
+            "Size": 49082,
+            "Sha256": "b4b76441711789af507b28a0b934819706c1af37f2c3cc794614d0c571218ca1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Cách một hạt mầm lớn lên",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "c94f4208148d50b188e4682b83f03271",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-01-tep-1.pdf",
+            "Size": 48691,
+            "Sha256": "ad8c84e09efd66cfabf8693e866d8e4d8b012876131905b13344c4a1ca9fd98c"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "e548519693c9547abe00dfd62159e479",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-02-tep-1.pdf",
+            "Size": 48529,
+            "Sha256": "7dfe8a40d14afc559e88a79c1ae36c77af5dd8d25a8ce1242c30ae5f607638f8"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "110956afa8075aa18f83b0e9fd1d6da9",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-03-tep-1.pdf",
+            "Size": 48622,
+            "Sha256": "0618a2cc2e87d5b314ddc472df6d528a437d3d3159c96238722d4ba886aa78de"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "6ecfe4907d23574cb4823691e6476b87",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-04-tep-1.pdf",
+            "Size": 48985,
+            "Sha256": "9f9ac1598a8db0fda2e8a3573f2ef66f655ca9ecd9b4d76223150362dda06944"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "b9a7b4359876507286d69edcf15d533c",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-05-tep-1.pdf",
+            "Size": 48751,
+            "Sha256": "620878de8107f0200c37765ec7577b4b00b534bbd3098d518fd6d5a787418879"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "cc9a3bfe0c4e50799094d977ab417b0e",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-34-chuong-06-tep-1.pdf",
+            "Size": 48822,
+            "Sha256": "6eae07ec5c59135e39903d7fe6913e47e51979294689acc83909d0bed8e459d8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Lối đi giữa hai ngọn đồi",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": true,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "17394ee94a0e5fbcaa633f8489d41608",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-01-tep-1.pdf",
+            "Size": 48989,
+            "Sha256": "37829e2c396c0e896eb9ae448cb6bcfb388f6545838af7e082c4139637b45063"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "1a76e873bf385f459c77243776efd184",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-02-tep-1.pdf",
+            "Size": 48981,
+            "Sha256": "c13319505ab924263573e1d5a04df579e20b5bfd8943d5766724a3f695b40fb9"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "c23c05d13faf556f8e38453cc1f760ea",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-03-tep-1.pdf",
+            "Size": 48895,
+            "Sha256": "bd7908ea26b1a0d2bf41bb4cfb1d0cca76c0cff4721bb74ab1f041943e04abe1"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "3a5618f11fa358cc8c67ee50f86c9f7a",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-04-tep-1.pdf",
+            "Size": 48892,
+            "Sha256": "c812e2dff20635938c0f4e4b8f4272b551a2b796ec04bf0554a61c7a5463a702"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "a0e442cf295a50ed82247dfe06a2db1d",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-05-tep-1.pdf",
+            "Size": 49087,
+            "Sha256": "c36035dc82ccbec61b750bd82751092e01cb19b261234e3519c138db4cee1c80"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "11077aff7cd85327be5d74af5cd84a8b",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-35-chuong-06-tep-1.pdf",
+            "Size": 49057,
+            "Sha256": "87cb19d1ada5727a8808c47325b98f50bf0021c03a34e8062d8553d42b08e53f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Một chiếc ghế dành cho bạn",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 0,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": true,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "631973fad3a052bfaf478d2b58708639",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-01-tep-1.pdf",
+            "Size": 48695,
+            "Sha256": "4edaaadfb91d35239d28bedb061ee64990f6f0a5deb1cb33afc014873ad9be15"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "b9f60f0852e95f6b8b4d583838c9f2ac",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-02-tep-1.pdf",
+            "Size": 48452,
+            "Sha256": "8a78476b0e8a318d8ba87683703c08c4be4c9c4001215086c5aa86ec82b56d50"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "f08fbb46098a5b09b80ea60609c3fbfe",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-03-tep-1.pdf",
+            "Size": 48495,
+            "Sha256": "d059375b7a553d3d6b31315b106a5d69bad15f1040d794eb5f59b0ff18d5b8a2"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "5c598b37ac0a5c5d8180f513771c03c7",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-04-tep-1.pdf",
+            "Size": 48874,
+            "Sha256": "de6d165367e18f0af2c399eda9597281c4fad919e6d917d1215bc91f9bb343a5"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "e46218629caa5740817e2494c9be3bde",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-05-tep-1.pdf",
+            "Size": 48654,
+            "Sha256": "07c74cd89284808fa45e32aa754f272ed0da6677d509bb6f2adec3c39159c174"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "21ea899c2dcb5fe7ab9f8575595e9b4a",
+            "Order": 1,
+            "ContentType": "application/pdf",
+            "OriginalName": "truyen-36-chuong-06-tep-1.pdf",
+            "Size": 48780,
+            "Sha256": "ededa6ee5e7f329a173ee4389c5e9399e3b8ec78762c66d43907a72e25a65011"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Mèo Mây và phố nhỏ",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "b06b9c6af63f59a682c87be50787a8a4",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-01-tep-1.png",
+            "Size": 35615,
+            "Sha256": "cbd933430fe40ee6f68543c82fcfa027e913735dc70e3c4cd39cebaa80d2af28"
+          },
+          {
+            "Key": "fb11b896a3cf55a18acba28700a44a76",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-01-tep-2.png",
+            "Size": 34665,
+            "Sha256": "f403675c75e17913c21ff36f4a00649d9157d01b6a3f6aba6d4552c4d24ceb0b"
+          },
+          {
+            "Key": "299d0ca13dbd54c9971be59748bb6050",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-01-tep-3.png",
+            "Size": 35315,
+            "Sha256": "e49ee5288c5e6efd804b3a7afa7c42b5ef885a6367b09cfd5959c29063515ff8"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "6429dd1c8058577fbf2de03349d80070",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-02-tep-1.png",
+            "Size": 36651,
+            "Sha256": "f4847f00e297d2b557b118f9b02c5edbc373c47a9b1054b4ae0024e8932b72bd"
+          },
+          {
+            "Key": "f8188f66fbeb50fc82ab321a28a953ae",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-02-tep-2.png",
+            "Size": 34862,
+            "Sha256": "0142691406612d0fafeb10afd2747d48561df8ffedaa3096b82e056eccb2e5c6"
+          },
+          {
+            "Key": "4f63864c5cfd5829b0fb499d4bd15d1a",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-02-tep-3.png",
+            "Size": 36178,
+            "Sha256": "7dca73e41b0f1a29bd5b1aff507c76276ae59d7071ddd7e53b4af1f75392c480"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "00e6c964e9ee5b9db98114ed2c14647f",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-03-tep-1.png",
+            "Size": 36761,
+            "Sha256": "36648707a7c8b5dbe0a5d147a8c8b35de1b6c9315b50c22f1985243b9f6d6e33"
+          },
+          {
+            "Key": "145648bb5aaf5b5e919916310579727e",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-03-tep-2.png",
+            "Size": 35609,
+            "Sha256": "2b45a41090803566fcc50b48a14b7b06357ae589a51d1450a553e80f4cd06056"
+          },
+          {
+            "Key": "f4d94be812935bdf8d4cc197407e1d4e",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-03-tep-3.png",
+            "Size": 35790,
+            "Sha256": "4addff8dda21dacd55feae737991cc0c7a18e85aefbff5777c3e528cca19a179"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "85f9cd4043395321bb763abcd058cfa2",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-04-tep-1.png",
+            "Size": 36267,
+            "Sha256": "2d867f3c84ada088ee51c162308755e6ea139453c6937444ee7f8985e67d239c"
+          },
+          {
+            "Key": "1d98989fdd405677bd37b5b670ae8f27",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-04-tep-2.png",
+            "Size": 35113,
+            "Sha256": "c9b845434cecf2a85e7f25b7ca8ebd2d1055344873019cb103b95ee489aef864"
+          },
+          {
+            "Key": "70f6f288ae215a11b19fe8ea71d2b2df",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-04-tep-3.png",
+            "Size": 35773,
+            "Sha256": "73d109e23b7b2a5d2551b0b2db1808161793ed2c0ac83866d75f881ce2df5c6d"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "949a0d87f77c5fc5a750eb5eedd9b981",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-05-tep-1.png",
+            "Size": 36288,
+            "Sha256": "6cefca49d1c5fc30340dc4db1721c523d9d503d1582e67e3a41b721ee2c19e16"
+          },
+          {
+            "Key": "8420332d7c035d66a58f360bf8aec2b8",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-05-tep-2.png",
+            "Size": 35130,
+            "Sha256": "21e4371a461b62c53f676ed49a5899f6642ac6adf9847dd2f226185e0e84a69d"
+          },
+          {
+            "Key": "8807ba32019158ad856ec13b25661611",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-05-tep-3.png",
+            "Size": 35805,
+            "Sha256": "4c8fea2413c3380ae8400e2594a68e5c46273127458b72d91efccf3676655d17"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "b9896e5afd0f53bda94a2a4a2d29e5ae",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-06-tep-1.png",
+            "Size": 37411,
+            "Sha256": "248291717015d1cb42bce1ec787e245d858427de013219c40b9be998a3a43033"
+          },
+          {
+            "Key": "c533f03c2e05584cae516c9ea84d06cd",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-06-tep-2.png",
+            "Size": 36246,
+            "Sha256": "f6bfcfad92c3a59f37dc9b52457a317ab3e6a316d1ec8dbbe3c7bed9a09ff22e"
+          },
+          {
+            "Key": "f3b25e8fefc55cb5823003b7b63658e6",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-37-chuong-06-tep-3.png",
+            "Size": 36937,
+            "Sha256": "c2d12aea359aa0f552f21e25f01a2b8ef315ea794e85416960eaa84b91020c42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Đội thám hiểm cầu vồng",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "65fdd7659d1455c8a624a60cda99316b",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-01-tep-1.png",
+            "Size": 36489,
+            "Sha256": "6bbb43eedf91dd182a02e668711038cf8274ae8b64846e0ff71fe3e83b4d292f"
+          },
+          {
+            "Key": "c1b42f489596503a9a56bf145c5fb679",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-01-tep-2.png",
+            "Size": 35551,
+            "Sha256": "b425a28cc82e4204af00f72d7a533491aaa332eb55bc3824c8df2d838bb2e006"
+          },
+          {
+            "Key": "5b4b00b32b1d595bba2c1896a2097254",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-01-tep-3.png",
+            "Size": 36243,
+            "Sha256": "bc121610934685dc6923f1667d9869a414cb84efbfdcc299298ab5b1c749411a"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "20e42ab614be55a6add385ec85eeaef5",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-02-tep-1.png",
+            "Size": 37531,
+            "Sha256": "1d758e119be9bd67c5cbd5ae58c1799ed0998359a4186c439761f2cbaa94704e"
+          },
+          {
+            "Key": "54bbe5c524375e109364a0f6acd13805",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-02-tep-2.png",
+            "Size": 35746,
+            "Sha256": "8e04967494ae3cfde65e2621fb5fc51bd9616a83c39d70a41ef0db1400c2582f"
+          },
+          {
+            "Key": "1a57b0149ed352439f5813e420dc45df",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-02-tep-3.png",
+            "Size": 37110,
+            "Sha256": "cc0ce313949009a26794ce5c81c51e8f71fea33e520479df8992178324fdd47d"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "d34c42da88015a24ab7a8b014315ce52",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-03-tep-1.png",
+            "Size": 37635,
+            "Sha256": "797ba33f2c0e3e44cdb921af03344608223996c3d6885cb57f779eab1a5bc1e0"
+          },
+          {
+            "Key": "0aca4af86bbd50bb88b07a6a3e9aa1f3",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-03-tep-2.png",
+            "Size": 36495,
+            "Sha256": "2bcce7a70307d07a64a166832d2bba8753b563cb08d72901f59960f35be062fe"
+          },
+          {
+            "Key": "5757273429585535a802624604f21f83",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-03-tep-3.png",
+            "Size": 36713,
+            "Sha256": "4af88f9de83eb596ac9620483c6476cb8bc09c130e840123941e11b10148b282"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "ca8d976570f256b89f4f1b1b173160ba",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-04-tep-1.png",
+            "Size": 37142,
+            "Sha256": "8b4150156510e42b55d935c0642bbb7d4d2579e173e3e323a18c9be9de4ea01b"
+          },
+          {
+            "Key": "78a5d6c2fe6b53a5aef1c491942e1f9f",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-04-tep-2.png",
+            "Size": 35992,
+            "Sha256": "daef324bebb379821f516991922d4a9d21605e2493127573ec7d284786d95e0d"
+          },
+          {
+            "Key": "c4f09d815a025dc694e86b40e86e34d2",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-04-tep-3.png",
+            "Size": 36705,
+            "Sha256": "475927e31fafb4249b66bed6161256d3e5e918ea069ea11f5f75c172b33e9969"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "aa17fee3850254cb8a641ce03ba3d969",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-05-tep-1.png",
+            "Size": 37138,
+            "Sha256": "aee37ab9b3e6d911414652e3a28684068a7f20a12c3cb6283d04004a3882838b"
+          },
+          {
+            "Key": "390dab7e0ea9589ba2e76614c4357a9b",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-05-tep-2.png",
+            "Size": 35992,
+            "Sha256": "757fb47b826bf1bab436886bb07af4f4b58229961d63e276959e2c1e305ea5ed"
+          },
+          {
+            "Key": "1f0d3fb208d257b5874844b5f09878a0",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-05-tep-3.png",
+            "Size": 36724,
+            "Sha256": "9d8245b65a373c6fd1b613fe465a42aa964191096094c635206c536740daf5b3"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "cc2f6031489c5d96abb2bb8b4e37b1a6",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-06-tep-1.png",
+            "Size": 38271,
+            "Sha256": "d44e037fa5c46db81f5c7161c4a45d2b3ac61a193f60218f729332d4bef81ff4"
+          },
+          {
+            "Key": "ffc08c79f9c05681b81359f3425b2645",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-06-tep-2.png",
+            "Size": 37114,
+            "Sha256": "1c2c262ea9968fef2a3d7b3b2286a87b7b42a4c65a3c602b0457790522bd92b8"
+          },
+          {
+            "Key": "a0692b45bfda5899b406a8c1ec697d8a",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-38-chuong-06-tep-3.png",
+            "Size": 37867,
+            "Sha256": "0c5b8f8e5cb56e8ceae1938c18061abea3e75e2ade481653dd5f96f99f1cdd8e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Robot Nâu tìm bạn",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "220e8f68a76a56deb500dd3d5e719dcc",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-01-tep-1.png",
+            "Size": 34977,
+            "Sha256": "e2d3e3e2985410a7c4bf58b39c1dfede08f25d5e0b7b80818126927407e3a96f"
+          },
+          {
+            "Key": "4c501dcc79af5b0588886d5cec081c04",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-01-tep-2.png",
+            "Size": 34036,
+            "Sha256": "46d65535bfb7d018ba2309531fd78d5e9decfdbead1d7d7c661d12af70d5571f"
+          },
+          {
+            "Key": "6421bc328a0b58918e6a732ce27ff7a4",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-01-tep-3.png",
+            "Size": 34682,
+            "Sha256": "57578a4d343ea771c8e544c1122b83b976fbdea737a6d9f7269f9d2f993a5821"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "fb9c9aeb7b8d57deb737054a955c2aef",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-02-tep-1.png",
+            "Size": 36019,
+            "Sha256": "59d819b04c788b89e4f612c621f6f13ca25e2a35cdc01dbf1cc2c1f7c8c19f19"
+          },
+          {
+            "Key": "35a8487e40fd581ca4d166adbc16bed1",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-02-tep-2.png",
+            "Size": 34238,
+            "Sha256": "fe2d026eba9a6268525f173479e5d5454b2443c0473db33208c01d4445fe7f67"
+          },
+          {
+            "Key": "3dd88a901f7a5efb9a5a7c9ae2b2dcc7",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-02-tep-3.png",
+            "Size": 35550,
+            "Sha256": "4fb230fff6f379f232612bc3ede246ccf84a0e371d267f04924f2ac9cacacc69"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "462867d72f195a9d90870600bab0dd16",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-03-tep-1.png",
+            "Size": 36124,
+            "Sha256": "ded4aa3e39b22b23e7f1c5b13afbfb7b70bc5b210c719d68f82066b5433b9669"
+          },
+          {
+            "Key": "7e3c433f84a35cf0983b511e75511b27",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-03-tep-2.png",
+            "Size": 34982,
+            "Sha256": "b19fc01a87cf787297553f43efbe3962fa34f7cf15ae5b16b757161f3aa09300"
+          },
+          {
+            "Key": "9496c3aaf3c6560ea64e69a287dd0848",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-03-tep-3.png",
+            "Size": 35159,
+            "Sha256": "71d11369f00f6f7226f1cb0ff6e2ddadd4bf000389c08d4eb05fbabbb50ccdfb"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "04aa1442b70e5e7c84d7704e06e69c1f",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-04-tep-1.png",
+            "Size": 35628,
+            "Sha256": "184c1af5c32d0d26d3543f52a44083337f118c59d217ab2e6523ff7bbbb266a8"
+          },
+          {
+            "Key": "985b7f00092d5126862d4d06e4249421",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-04-tep-2.png",
+            "Size": 34488,
+            "Sha256": "3a824538e597bb5a645aaf92a176b6f042a74e49a29853422be7f87a3f7e78fe"
+          },
+          {
+            "Key": "9c17300acf0c5c24b11bfb6059d37b37",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-04-tep-3.png",
+            "Size": 35144,
+            "Sha256": "e3e9be49fe21d14d1097b5c7198aff9a4cdb087bbf8d3b69040f9e8bf819edde"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "eed42ddc06025353b9aaf5fcbc3fdd1f",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-05-tep-1.png",
+            "Size": 35653,
+            "Sha256": "5182d37223a0980089ad253fe174925d10bb74db459802276f38f1b32b4077b9"
+          },
+          {
+            "Key": "d7f720a4b9a05009866c04e10467bf65",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-05-tep-2.png",
+            "Size": 34497,
+            "Sha256": "30b3eacf5c0f6d95e0ad1d2a95f1875dfac983a0df87888077c02936fdd08741"
+          },
+          {
+            "Key": "d9e6bf9ea7af54d495471257c16d6dd0",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-05-tep-3.png",
+            "Size": 35179,
+            "Sha256": "98959b19960166a3fbb87a68999375feb2c71f1516e9b0625243e10e963dc75f"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "5c84073e9de955afaf1623a3ea2b58f4",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-06-tep-1.png",
+            "Size": 36780,
+            "Sha256": "94fff89329b451aee0e21dded4bdd5e06a3e0ed5dc8c8ce56ef5c77e3976941c"
+          },
+          {
+            "Key": "f25f5799a2f457fc814feddcf90a7e68",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-06-tep-2.png",
+            "Size": 35619,
+            "Sha256": "31bc76bad1d284f82f8e9710f9fa389176d0da4ed7ba7fb7f65fb743c608762f"
+          },
+          {
+            "Key": "0226306992b756078a21f6b7bf8022d1",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-39-chuong-06-tep-3.png",
+            "Size": 36315,
+            "Sha256": "a6d13b9cb5ee30d68194fb4c006c4fd46a5a5505431cd8536dd07e2de2e516a9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Ba đứa trẻ ở bến xe",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "76f48cea59c8518b9b5bbd4d6fc41e54",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-01-tep-1.png",
+            "Size": 35902,
+            "Sha256": "f50e8357b35443985596e66e3b4b20e9f0dcfcad9a556d86394bd6246224df03"
+          },
+          {
+            "Key": "a9d43276c7e3509aa761ebfddb62ed3a",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-01-tep-2.png",
+            "Size": 34963,
+            "Sha256": "e2b90e9bb398a8bf986f7f7cee39998375c176e066a1796def3ed17e932c3512"
+          },
+          {
+            "Key": "9ef949048d035c05877a6e188ff6866a",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-01-tep-3.png",
+            "Size": 35661,
+            "Sha256": "94076de382520a593c0d08509f1462b77aef04a05b60fe97adb35777e077d857"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "8ec289cf657a555192affaff7c6749ea",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-02-tep-1.png",
+            "Size": 36941,
+            "Sha256": "af21aa7b966aa7d2c23a34be00f2681649e7a58e9a2257d1ad9fb42c3989a288"
+          },
+          {
+            "Key": "626cf589c2d958e2bf8e33fd847d1ebd",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-02-tep-2.png",
+            "Size": 35161,
+            "Sha256": "c4240491a56129095871f24a462ec61b856ba9f528b9a9adebfcf1ae82d63cb8"
+          },
+          {
+            "Key": "3241698194cc539d9c20bee9f16314e3",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-02-tep-3.png",
+            "Size": 36522,
+            "Sha256": "266bfe5b13f40e540bc839de88266443575488cb994a02d579403d63e7ff5904"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "7949b69f7c28518abee081dc6f127fec",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-03-tep-1.png",
+            "Size": 37047,
+            "Sha256": "d18ee81de70bc75d3d3e87c490b28b5f7b9b549282bf3784d99d0dc364d10027"
+          },
+          {
+            "Key": "c73e8f7669e557d48d320fea113d3584",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-03-tep-2.png",
+            "Size": 35904,
+            "Sha256": "c6e1548e4c3a62b191af61021ae04cff190bd2be10c2ec13d8492874c7d9e3b4"
+          },
+          {
+            "Key": "53df0905252358e58221172c4955c721",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-03-tep-3.png",
+            "Size": 36141,
+            "Sha256": "2f4c62b20a0992d3561270d8a902c3448645a8702b78b4a919f4d7b13a65968a"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "4bc7bed81c4d5dc28282a05117605244",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-04-tep-1.png",
+            "Size": 36555,
+            "Sha256": "1cd92304dd59976227f83844a73517c81e1730a2a16003e2c5f7aa6625fbeb55"
+          },
+          {
+            "Key": "c27e1971fc40508cb8885383daa9d1a1",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-04-tep-2.png",
+            "Size": 35409,
+            "Sha256": "8b63c167f5d39bdfd494462044bf7490be1bd65dd183a9a37b927ff86f02921b"
+          },
+          {
+            "Key": "6507359457c453fb814ed2b7bb69c561",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-04-tep-3.png",
+            "Size": 36119,
+            "Sha256": "9ab953281854679b322e356514acdd9c75126fc5ae7481435ff7eefb97e37fcf"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "b8eb3738395b57f5a71b3aec92248981",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-05-tep-1.png",
+            "Size": 36577,
+            "Sha256": "b4aa5dbee5c46399e969d0fcd71747b63d0e593847055d7b6214b77a81060c03"
+          },
+          {
+            "Key": "a91b2251bf465382a891fe7e2ae639c5",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-05-tep-2.png",
+            "Size": 35423,
+            "Sha256": "eb522fd0c0d150950362f99a8461a8b6ed1dea2bbc16e0b5a1350880bf1ed23d"
+          },
+          {
+            "Key": "75bbf1144fed5c1e99b30bc5260a9997",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-05-tep-3.png",
+            "Size": 36150,
+            "Sha256": "e35e683b6e2a71c048cfd05718f987bd1b9de3433ab213c5b5f13307763c0e09"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "de7bbead8d8a5f50a5d88c2de2db9fd6",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-06-tep-1.png",
+            "Size": 37700,
+            "Sha256": "32c22d8ebb6619d631338a9859bbdc79cec18287e2daafe6787f7f080a70f82b"
+          },
+          {
+            "Key": "74e06547ae625a4a804cc125d407a9fc",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-06-tep-2.png",
+            "Size": 36540,
+            "Sha256": "d4c0ab9eafcb0fddf87a8bfd9e7c7405ee47571f2d3d695eacd7be7b56461174"
+          },
+          {
+            "Key": "a8091bea869b5a859de66772c77f2df6",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-40-chuong-06-tep-3.png",
+            "Size": 37280,
+            "Sha256": "90e55833472f62b6d399265a32e229161757c6d3f2514e92a9cfc35d92a68595"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Cáo Cam giữ khu vườn",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại bến sông, một lá thư mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Kỳ ảo",
+      "Tản văn"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "6c778024ba115ee484194c1135ce0517",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-01-tep-1.png",
+            "Size": 36042,
+            "Sha256": "9017c23f12f4526f9bdc0bdcd85a0427915015dac9cffbab1103acd54528ce96"
+          },
+          {
+            "Key": "cd59c2112fb95650ba405587e89ebfa4",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-01-tep-2.png",
+            "Size": 35101,
+            "Sha256": "98cacb288583026aca66795a7587155bbf4858b482904218ef81ca40af4792cf"
+          },
+          {
+            "Key": "b884e59d216e5af1a23b2061de84764f",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-01-tep-3.png",
+            "Size": 35743,
+            "Sha256": "4e3f8834edb6f77be8fd0fcc79c37125fefc8996fd59003da0245e322fb0e2c5"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "153a982f476c526eadd32db6adb54d55",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-02-tep-1.png",
+            "Size": 37077,
+            "Sha256": "b7d3f98b0cd3e67a8e419eaa7dbdf7e0e53780da9335afab64c6c728a6794336"
+          },
+          {
+            "Key": "e4f7c6d4c51e54c0baf81b8c436e3501",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-02-tep-2.png",
+            "Size": 35297,
+            "Sha256": "4f0ca9ab9278470ea209a2046ff8885305e581cf688f401e952e3341ee4c9db3"
+          },
+          {
+            "Key": "fb35e2ef16e9553392456770b769a3ec",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-02-tep-3.png",
+            "Size": 36605,
+            "Sha256": "24f1fdfc5b50479ff57f90c2b503f0820f1414ca9f761e08990f42af2c48b663"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "5b083703a0355cbdbc542d3d03c64913",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-03-tep-1.png",
+            "Size": 37188,
+            "Sha256": "6748c906d093bae434dc7a80c6be6abfe82efeebc55d275cf91c59bae73983f2"
+          },
+          {
+            "Key": "423a346fb29956dca18d100f693c6502",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-03-tep-2.png",
+            "Size": 36036,
+            "Sha256": "b7c92b37bd75c845fc9bc13fa2317d5fd31566f5b3ea496284549339407a9279"
+          },
+          {
+            "Key": "c3cf1c4e8f1155ffa7b3ae3928affe40",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-03-tep-3.png",
+            "Size": 36216,
+            "Sha256": "b3a938db824c2616b06706698f53effa05742f14474c86d40d979c54e0d1da4d"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "f8a2e57f177b5174a860d913b014d328",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-04-tep-1.png",
+            "Size": 36690,
+            "Sha256": "a1f4d55ab829b00098431b50806139d79084e2212b03d9e78baed0ebe612dfba"
+          },
+          {
+            "Key": "996fe123a9ef5c15a37040478aa1f5f9",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-04-tep-2.png",
+            "Size": 35546,
+            "Sha256": "fe49e77daf8456b7bc52829b125fcd309da66aee0c3c3a3ac7be3785b6c03774"
+          },
+          {
+            "Key": "e8757161f96e547e9ac33299756c586f",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-04-tep-3.png",
+            "Size": 36198,
+            "Sha256": "2f8b28bdc1ce2b31f9507bffa47cd128a7b5336079e078fd3a9b910731f1b8b9"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "aad376c8f16054e7b80c08631f92cf77",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-05-tep-1.png",
+            "Size": 36708,
+            "Sha256": "6e9d1a004a007e9c873e7489ff7849614d6737854611a57609bbf84a77c04075"
+          },
+          {
+            "Key": "1d03ca5c274f5db3b9404e7dd3ffa33a",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-05-tep-2.png",
+            "Size": 35560,
+            "Sha256": "d99ac30c56d1384c0731a2f99dbd2a2de1f4b4674ad85e75ced322dbd88791aa"
+          },
+          {
+            "Key": "52c87ebf4b585e8992c6eeed88ef0511",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-05-tep-3.png",
+            "Size": 36233,
+            "Sha256": "3cd4d5c077e25325bfecd95a45b1f84491cc175e84c508ab61b861caf61c861f"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "cc16d858a4ed56e6acc7cb6deb3c814b",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-06-tep-1.png",
+            "Size": 37838,
+            "Sha256": "7f760dccc6668105996ee4c8063fb5867dd69fba5c2ed7bcc124b2cda2327b70"
+          },
+          {
+            "Key": "cec6e32e82135592ac4176bd9ee96a84",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-06-tep-2.png",
+            "Size": 36681,
+            "Sha256": "90f2568f5782acb5ec18565b87bea864877d2629bc3165ef104b2101ea47a6e7"
+          },
+          {
+            "Key": "33fe494b921b5c9f8ccc31fb5ca63ad5",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-41-chuong-06-tep-3.png",
+            "Size": 37367,
+            "Sha256": "9e9ba147f5d0ad39b2ea64891e93180496a9b385f1cd988624fb54fbff147846"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Chuyến giao hàng của Gấu",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu phố cũ, một cuốn sổ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Phiêu lưu",
+      "Trinh thám"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "4547c965899356c09c9188105115dfac",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-01-tep-1.png",
+            "Size": 36378,
+            "Sha256": "17c1cd5e0d82e995e155e103255883aa5e6ee22fb2750fbfd90c4a9f8e598c87"
+          },
+          {
+            "Key": "0ac8bb77e18d5f25b2842f0dad47ab59",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-01-tep-2.png",
+            "Size": 35444,
+            "Sha256": "79e1f79cf144b414a52e2ab6f53c579927e375c4027b9c27f5bf18894f0cfee7"
+          },
+          {
+            "Key": "7678d901750b549284f50a412e282e13",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-01-tep-3.png",
+            "Size": 36133,
+            "Sha256": "df3b1f48d7894f562e29308489c6369c137787da77ae21e77ce05e3f3c34d7b6"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "f4e35479de6855378453406d1a7909bb",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-02-tep-1.png",
+            "Size": 37418,
+            "Sha256": "3b0d8f47cf27096b9545c65cdc3a62a64510f77bb177de0558ad952c89ced854"
+          },
+          {
+            "Key": "356b4801edc7563ebfde3cc0a180b73e",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-02-tep-2.png",
+            "Size": 35639,
+            "Sha256": "e0aae033ff4aad62348867e60229f697b48a8fd970a5c2cba8b69dfcae86703c"
+          },
+          {
+            "Key": "037944b2853d580faa4da8d5e83bffb9",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-02-tep-3.png",
+            "Size": 36996,
+            "Sha256": "9617d3ccf8dc889fee922c96ef63a4da95b53b236c4fd37f9c34905d4bb4639d"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "b9529d15c051503d8cd56b3afd501a88",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-03-tep-1.png",
+            "Size": 37525,
+            "Sha256": "f6b2695646797c3892ba694311a67dd4c2c180cf5ffd0d8e9edb86e56b4ea35b"
+          },
+          {
+            "Key": "1d0ca89106e558ccaf6af49a1f2404d7",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-03-tep-2.png",
+            "Size": 36388,
+            "Sha256": "6002d5faa702c07f9a1490064fd1285d3b38bf30d77cc9cab6a292051b25d35c"
+          },
+          {
+            "Key": "0d7914c5afcf5f7786339497669eca07",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-03-tep-3.png",
+            "Size": 36605,
+            "Sha256": "952b5674cb0c3fbe97cb5bd8ae5b352f30a054cca3cc853daa41401896bdc15f"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "cdf555998cc95554b0f79e08de7b330b",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-04-tep-1.png",
+            "Size": 37029,
+            "Sha256": "7b85c5c66dcba898dcdb82fea6f5babec1842ebd1740ae2bd2dd3617bd253fa4"
+          },
+          {
+            "Key": "8ef6515b594551e682ef751a63c39eb0",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-04-tep-2.png",
+            "Size": 35889,
+            "Sha256": "d1d8395d2b4114d10516da81eae38907c2df4e23245ec4d81d95fe43d94510b0"
+          },
+          {
+            "Key": "24b14bbd2a9c591bbbbecc16995f82ca",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-04-tep-3.png",
+            "Size": 36597,
+            "Sha256": "78a856ffd4db0d167109341b4b2fc1f509f06fd6adddfab6b0f9167d1509d567"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "730972f903cb569ba4644d26a3433442",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-05-tep-1.png",
+            "Size": 37022,
+            "Sha256": "c445f49da4d7893d7f1f7ac40fc67492b5db063013da661c31109ea87c8b5c56"
+          },
+          {
+            "Key": "3cdbd02982b350ab92befa5b4dd64e14",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-05-tep-2.png",
+            "Size": 35885,
+            "Sha256": "8d7b59b3fcf4aa2d0ef67d7923a91abf035eb856680e2e56ceae45c635a19f90"
+          },
+          {
+            "Key": "19c14185bc495c228999615a0f02f99e",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-05-tep-3.png",
+            "Size": 36613,
+            "Sha256": "ed06032a482ffe7bec578a94eceddf346804d8dbdf29cfe229fb2579547e3da9"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "a951d4b26fa254dca6e4ceea434bb5d9",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-06-tep-1.png",
+            "Size": 38157,
+            "Sha256": "d5f24faa7e7e2ff96ed64b0327a37bc7e1c25f66f24bde940d433bb465cf8853"
+          },
+          {
+            "Key": "78f3e1897d7d52ffa227c9d4ad863abf",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-06-tep-2.png",
+            "Size": 37005,
+            "Sha256": "f9f1d0902e3ab34e31d35bec666bc02649655e39923c8f182241fc44a8da4e81"
+          },
+          {
+            "Key": "dd50beacdc0c53ccba09935c3f6ad80c",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-42-chuong-06-tep-3.png",
+            "Size": 37759,
+            "Sha256": "561337b0688f45fd9fed24bc0eed3ac6b720d0b324b47f74a5e984b2ef0fd858"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Vườn sao trong chiếc hộp",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thung lũng, một chiếc la bàn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Văn học",
+      "Khoa học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "7f32f816475e50098f6419b3c850ad36",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-01-tep-1.png",
+            "Size": 36768,
+            "Sha256": "cf77237e3ae473dd7f7d7159a8e37d22fc3ae680addc09da2a7d744f35de18d2"
+          },
+          {
+            "Key": "9a04816935ce52b1bbd0585f9508f7b5",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-01-tep-2.png",
+            "Size": 35823,
+            "Sha256": "9fa677eb133695a22856dc02f71c60e9b41d2d6595f59a2147657487fa475755"
+          },
+          {
+            "Key": "1c99b69412cf53cdad02d96db4e5fd60",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-01-tep-3.png",
+            "Size": 36465,
+            "Sha256": "16072aeaa3b87f661adfb3b162dca7613b378c20b21f471cbd5b7bbebab25348"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "cf20c38c295c53a7842cf619a67e5bc1",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-02-tep-1.png",
+            "Size": 37810,
+            "Sha256": "c0c172ca70fc7a617b292d206bcef2031b44c76aa34bbcd99f961c8717be246d"
+          },
+          {
+            "Key": "fd30d8db14875903a4fc8578a5890bd1",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-02-tep-2.png",
+            "Size": 36027,
+            "Sha256": "12b073287b086ae6b7e47cb98eea676b72119a4aa83656023476154e727516f2"
+          },
+          {
+            "Key": "940bd84c23615a3f95897897375a1fb9",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-02-tep-3.png",
+            "Size": 37332,
+            "Sha256": "5c9a5dc45560ff47e5f8ebc452802e124bdedd1408e3d48123dcb17521b68f60"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "187a94635ccb5ce9ac394f988000afe3",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-03-tep-1.png",
+            "Size": 37913,
+            "Sha256": "c31368f538b71cf50faad025932d6d18052597143c0e30710bd759a3313e849c"
+          },
+          {
+            "Key": "db52c9d2cc1458a5ac4010fb6ecfb427",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-03-tep-2.png",
+            "Size": 36768,
+            "Sha256": "bc1ada002486288b3827dccc28b16cd37f4971748d632830233dfc0798f04b53"
+          },
+          {
+            "Key": "f92d34a064515881bca242e5326e637a",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-03-tep-3.png",
+            "Size": 36938,
+            "Sha256": "f2b62ef7d7016d1a79eb69597ba00fafdcf344f4408a080ea917b0fde60dbb40"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "8396e6c512a052a2b08ff6f6ea6c3635",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-04-tep-1.png",
+            "Size": 37423,
+            "Sha256": "3087053b37a0a1c1268e08180e8381b04cc4e7c5d3be3530ef885e81dddac99b"
+          },
+          {
+            "Key": "b6c32283ab4a5b008a8f7c2dccf4703a",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-04-tep-2.png",
+            "Size": 36277,
+            "Sha256": "6cd7df0229fbde40890c5912dc8026811fe17c81bd1373841ef1a654ac04dc41"
+          },
+          {
+            "Key": "824622b946a85e3e90c60a4f2a09c511",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-04-tep-3.png",
+            "Size": 36931,
+            "Sha256": "a25a877521a0d6a058747fe4554b00f7d5ca97c7f5b1f09d2db0330c866de726"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "52fe0746f80d534c88049cb8f0231362",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-05-tep-1.png",
+            "Size": 37445,
+            "Sha256": "afd7a36b15594b087ccb64ad4275fd4dea2096ebb0306b84d9cace1e8c9040dc"
+          },
+          {
+            "Key": "9901ff106db4587a8da854fd458031ab",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-05-tep-2.png",
+            "Size": 36288,
+            "Sha256": "c7d3a6e6aba5acf1770983235d81559239652ab769b8701dd979a5b7552c15bb"
+          },
+          {
+            "Key": "5350590688535568a38daab098580a6d",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-05-tep-3.png",
+            "Size": 36965,
+            "Sha256": "c59e7b17cd5d5d587470d871070ca48c0b4c984808067bef907bec099183e08b"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "2d97a0b576d85640834d00428e203813",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-06-tep-1.png",
+            "Size": 38572,
+            "Sha256": "2ff590bfa2f36b8a443658ae3bf05d8cb5329f47ac61cd78dabdf50dcc3817af"
+          },
+          {
+            "Key": "50ab67b269ea5efbb4541b0f65af175a",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-06-tep-2.png",
+            "Size": 37405,
+            "Sha256": "82004803fbed90d06456af7241dfa3536b01b6713f9ecae449cbe17b39d2c3bf"
+          },
+          {
+            "Key": "ed89f625e6055727ab1b5eed455860e6",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-43-chuong-06-tep-3.png",
+            "Size": 38099,
+            "Sha256": "e50a3a785d8db2498e76d2ebafaaa622d478e5b8a8924bebb0e54827a9621798"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Quán bánh dưới tán cây",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại nhà ga, một hộp gỗ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Tản văn",
+      "Lịch sử"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "b85a7b1981e6566abc11e5e3190629c5",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-01-tep-1.png",
+            "Size": 35956,
+            "Sha256": "9f3c80ac4833ced801de1eda200e0cd8ec90983dbd779949e03c045baec8a1fe"
+          },
+          {
+            "Key": "2d21f106ecef51e689d494d83c9a3846",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-01-tep-2.png",
+            "Size": 35014,
+            "Sha256": "7e3f3ab8afb15bce611865bcd9a2b04dd704deed1930321d7e97306651189623"
+          },
+          {
+            "Key": "cf82ca98bf8d5c10a8912b156441db37",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-01-tep-3.png",
+            "Size": 35715,
+            "Sha256": "04dbe1a8bb31aab57649bc21057ac272cc9e60d32d9ec51f06e7b726770055be"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "4674e94a4d285992adf7274de96edb46",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-02-tep-1.png",
+            "Size": 36994,
+            "Sha256": "7bc12399f33e5b7c5ec94e7a31a87d025f4c7318467e4a0289b641541f651b4e"
+          },
+          {
+            "Key": "a0a6bd71ca9c50b197049d978c51ee63",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-02-tep-2.png",
+            "Size": 35212,
+            "Sha256": "3dfc00f4c0e898bbc8951accf0f0613b296fe293316cce7047867c32560e1b7c"
+          },
+          {
+            "Key": "b5e0b5b36385569fb51229ef1f185f6f",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-02-tep-3.png",
+            "Size": 36576,
+            "Sha256": "9d8bc11767f5e819f389ded38b158f0574a0ccf97160a18d413abe48133de7ff"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "9ff63a039d8e534bb00c76a02317eb2e",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-03-tep-1.png",
+            "Size": 37101,
+            "Sha256": "4b1705e9efc4be6d10fc4c6a8a9fe615babd350fb927e766e2c895b926f1621b"
+          },
+          {
+            "Key": "09db5d91855b54b289a61a2494b77c50",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-03-tep-2.png",
+            "Size": 35954,
+            "Sha256": "665007186353fcfa34cc8f21a26eea0a821542bf7c122e0c84a0e50a4d0ee41d"
+          },
+          {
+            "Key": "abc4254148c9537cbf86889c95064b0c",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-03-tep-3.png",
+            "Size": 36188,
+            "Sha256": "d7b736c5b55c508d0c1ee2b423712f188bc5a047a1b9fed9cc22a3e8801f0a7e"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "a20d62cbc5b452f69789181c4ba3ddc3",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-04-tep-1.png",
+            "Size": 36608,
+            "Sha256": "019dc9b9ed415b67611fc60eb3c1c12ab4c84b4d0b29c0c7e38dfcf9875dd11d"
+          },
+          {
+            "Key": "4cdf46c0d4bf570ca7b7c461bb2d07fe",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-04-tep-2.png",
+            "Size": 35462,
+            "Sha256": "e2d7202536fee080e4128d4396dc85856b7dd2033d1ae621a77a3930cd3684a9"
+          },
+          {
+            "Key": "7085a9c67c1a5f3f89c305b7b3600281",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-04-tep-3.png",
+            "Size": 36171,
+            "Sha256": "ef50b124e9e4a305f751845a347d30204c8593bc77133dd0db5604846f5a2726"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "4db7766a74c153729722926cd8d2b093",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-05-tep-1.png",
+            "Size": 36629,
+            "Sha256": "8e431cf8d103aac4859b1e553f62ed475328bf3707dd7986ef1f3a2de7814dcf"
+          },
+          {
+            "Key": "09fd80845dac5956ac58d9aaa9a15219",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-05-tep-2.png",
+            "Size": 35473,
+            "Sha256": "bd7c1ca06f1838210ce78d30f745e3c17a480cfc14832abc4f382b94c5133530"
+          },
+          {
+            "Key": "aa7d9dcf5905525f8eee111bf925606d",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-05-tep-3.png",
+            "Size": 36202,
+            "Sha256": "1453a6a80a366f12e8e590ba045a5a7d5c31846869f9ac3785fa1ef4d1ce9cdd"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "ca5259bbf21a5ae29f1d8c4eb2dcb80f",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-06-tep-1.png",
+            "Size": 37755,
+            "Sha256": "485b56e3ca52a458598899805600923d4d32e2d5ed3fab5f6d45881db779dbff"
+          },
+          {
+            "Key": "4e2ed3fa98285efa9f0a0d4008da766c",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-06-tep-2.png",
+            "Size": 36593,
+            "Sha256": "3d6f5ecd161e3fde2655a91a32c422287c63f072acd4cbe97484ce04fd12ed6b"
+          },
+          {
+            "Key": "d15f4998ed3555b0b4a612a2b45456db",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-44-chuong-06-tep-3.png",
+            "Size": 37335,
+            "Sha256": "0bfa396d296daa50f13c00c1cc42d4fbdede6a7a231a711d377e223cb97a206c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Đảo nổi của những chú chim",
+    "Author": "An Mộc (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại hòn đảo, một tấm bưu thiếp mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": false,
+    "Hidden": false,
+    "Genres": [
+      "Trinh thám",
+      "Kỹ năng sống"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "e22ceb41752a5285975c30e4993ce777",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-01-tep-1.png",
+            "Size": 35893,
+            "Sha256": "f8538b91d5986444b343d1ec8f5e0f02bd09b55990a728fb0b7d1d52c8e7bd20"
+          },
+          {
+            "Key": "7cccc321a8f65196be5c1c2b99fec02d",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-01-tep-2.png",
+            "Size": 34946,
+            "Sha256": "df38c34f844456f2bb0e476ae73ce135547f87ab517816d30edeb050a6d5a483"
+          },
+          {
+            "Key": "ab33a90469fb5e89b49599f9ea3feb92",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-01-tep-3.png",
+            "Size": 35596,
+            "Sha256": "a1920855b23c57e35d0ef2d9a2e8f4d3441788f59c09b84320aeb9a69794484f"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "dfc6ab0754cb5fa58c72b88669f52f13",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-02-tep-1.png",
+            "Size": 36931,
+            "Sha256": "ef68cd4b5f7d8c45d9e51f1e86dfb876a24a8cffa8d5d10bc68624ea3a803b9e"
+          },
+          {
+            "Key": "b2ae0c7b4ca15643a0a820859457cc13",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-02-tep-2.png",
+            "Size": 35148,
+            "Sha256": "05a0e25578944ded72c26c56d50a1b2258eee7c8e8e2a49a8b13f077a51f6b81"
+          },
+          {
+            "Key": "c757298cd4cf5cccaed92e6a034b48c0",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-02-tep-3.png",
+            "Size": 36458,
+            "Sha256": "341f4a2af0d685f5229a707480597197436b5769590f8bf0c80117bf7c6a7c10"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "c636da0aa45c5fb1ae0b6fb1f9ba9b1b",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-03-tep-1.png",
+            "Size": 37042,
+            "Sha256": "551bccfdb7041fe852f7cbfb6fd28bfb744853a63fe61858689a7aa68d012e5a"
+          },
+          {
+            "Key": "f55079e74b8451669d49c12d65790844",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-03-tep-2.png",
+            "Size": 35888,
+            "Sha256": "21794fdb8977dfa1f79ba6cc6d070bbf0b6929d07b09de8463a875fa5cadc1df"
+          },
+          {
+            "Key": "ed0ee38b1938548b861fbf0d399ada0a",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-03-tep-3.png",
+            "Size": 36070,
+            "Sha256": "2d31cb766dc2c6c16eefd5d6bc32641331d987ae61357e4ad9500321feaad699"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "a37c0b7b8bba50d3b5c919a304b643a2",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-04-tep-1.png",
+            "Size": 36541,
+            "Sha256": "8bdc4662d7ec7d1ad4118c909f56f7721e7713d1b22fd3eabbe0996deace9da3"
+          },
+          {
+            "Key": "0ff0ce090cdb5114919036cd311c5a02",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-04-tep-2.png",
+            "Size": 35394,
+            "Sha256": "886d57eda316db6442e0e46b70381503aaab1b9a8fcea2301a0dd593afa6f10c"
+          },
+          {
+            "Key": "0967721439f75ee7977c8b333d25d06d",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-04-tep-3.png",
+            "Size": 36053,
+            "Sha256": "11a5500aa4521927dafb49b498495b36405b56be311655bcae357dd13ce11ebf"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "1f0ea26ac9af50899ee0bd2792324579",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-05-tep-1.png",
+            "Size": 36563,
+            "Sha256": "0e7686508be61bb65be42cd71739059336f93a3f954541a774d724e306f4f60b"
+          },
+          {
+            "Key": "23be80c32fd15753ac3542ff74bb8c3d",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-05-tep-2.png",
+            "Size": 35413,
+            "Sha256": "76240194db140f5bae1275108d2cfed06fb790ba519bea49b7b22d1facd01b95"
+          },
+          {
+            "Key": "41a74cd26892583c9fcf49f5c44c22b4",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-05-tep-3.png",
+            "Size": 36088,
+            "Sha256": "5dfadfb73f6a74c118f3587716114a86e63677d6aacb5cf602c4ac710f7835df"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "3bd0c9d5d5c35c6caa84806a171d0a5c",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-06-tep-1.png",
+            "Size": 37690,
+            "Sha256": "af439feb8ea7a0dbe91600ccb4713915a6f7ad434a772fc4179ae465c27a5d03"
+          },
+          {
+            "Key": "c28d0b12703f52b38b405f71d5ee4ad2",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-06-tep-2.png",
+            "Size": 36527,
+            "Sha256": "4f6152ec4ecfc32ce67d3f0fb98159527f0381cf79b99e272b522b0050574655"
+          },
+          {
+            "Key": "ad7d61cbb40f59169a25453f117fa335",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-45-chuong-06-tep-3.png",
+            "Size": 37216,
+            "Sha256": "06dcf90799cdbef60f6601624dff184494f20fad08fa57e242e6690b559af2ba"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Đường đua xe giấy",
+    "Author": "Bình Vũ (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại xưởng gỗ, một ngọn đèn mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Khoa học",
+      "Kỳ ảo"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "66a0291b76a45c31878d98388c748335",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-01-tep-1.png",
+            "Size": 36035,
+            "Sha256": "4b2f5b9976e4eef07e3ec0dcc0dd34d81644b908c6225249a515d06309ffc32d"
+          },
+          {
+            "Key": "ed2c0ce8a75c5914ae7d38c49886282d",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-01-tep-2.png",
+            "Size": 35100,
+            "Sha256": "154b849fc54272aaf27f28c6c3dcc0cf0ed01b5645a4629bea6e948a6554ff75"
+          },
+          {
+            "Key": "7a8e3d9a2bc65ba8b3f649a0d5a35d8b",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-01-tep-3.png",
+            "Size": 35786,
+            "Sha256": "510ba6dceb56f24de973e069595756ffc51611de4ffa07eb1b493adcb522b6af"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "557b72764ab555769070749728c55f0d",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-02-tep-1.png",
+            "Size": 37073,
+            "Sha256": "2b8a3dadf6d48c30da02cc0345ec1e4b5eab521e8370d81a2770f53d6fd1c961"
+          },
+          {
+            "Key": "01e7a368458952b690627eecbd805308",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-02-tep-2.png",
+            "Size": 35294,
+            "Sha256": "02036766ac9c3ec494d486782b0a7fbd23d2b73531007187a2cb71d37dfe607e"
+          },
+          {
+            "Key": "dbaf275c8c855ffc8e393c7dacecff9c",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-02-tep-3.png",
+            "Size": 36652,
+            "Sha256": "dcb3fd24884a3efd2881a6a8bb6184d7a4f0d222a43bd9eae6a0a328d3ef25e3"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "e98fc93516a15bcdb01843c384d9634a",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-03-tep-1.png",
+            "Size": 37180,
+            "Sha256": "4dabc84dead0b728cc906126ff519e4b8db47c78d3e77715405e5560eef25484"
+          },
+          {
+            "Key": "76e7f1e9daf757ebb80327e28ffb3401",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-03-tep-2.png",
+            "Size": 36042,
+            "Sha256": "86d90bf8ed27a7438e27ca0d1db26dbd4001d808eb3ffdf5897d5314bc24adf9"
+          },
+          {
+            "Key": "5754bcc06262576aabddfb67f1a2c04e",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-03-tep-3.png",
+            "Size": 36259,
+            "Sha256": "20f056796fbf90ecbad26c38015c1188bfad232cd440e775350d26875e7edc83"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "afa75581140054b7bb81e52d14c61840",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-04-tep-1.png",
+            "Size": 36686,
+            "Sha256": "ec42081daec9961c44020873e46857a8df3b30472ab341d68ff26f0e90941e7e"
+          },
+          {
+            "Key": "ecf76b9163ec5f2eba6f1c95e36d0a5c",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-04-tep-2.png",
+            "Size": 35544,
+            "Sha256": "59bcb09f4ceaced618f3e654be4adef8c75fd49eb86ac7162bf3a8dd2b48fc88"
+          },
+          {
+            "Key": "3a853fb0f6c359ca9ae163bbc6c2231f",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-04-tep-3.png",
+            "Size": 36250,
+            "Sha256": "4417196887798a696ad4024336b9cf64d86e3a1214942a507f6e998c2af4bba4"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "fc5546da1e3150e88c96e4c182759a32",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-05-tep-1.png",
+            "Size": 36682,
+            "Sha256": "ff497c1255f8353e69b0e8feeb6d9c32917083ea97c48c9c9599a9759e88519a"
+          },
+          {
+            "Key": "a9cac1f0f1175d0c98d062b58cf6da34",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-05-tep-2.png",
+            "Size": 35539,
+            "Sha256": "4470b97bc71d1a309965aaf68bc57a5a5e4f0746bab3da9cb45776fa591446ed"
+          },
+          {
+            "Key": "708f01b43f8856f9821a393fbe10a887",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-05-tep-3.png",
+            "Size": 36268,
+            "Sha256": "5e638fb220e3104ea8535ff156ab9da425f01b50bd7971cbea5a5d1ed6e21724"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "8fad04a37098563a955d85ebe5bfe099",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-06-tep-1.png",
+            "Size": 37813,
+            "Sha256": "9ccedcfc7b24936bfe351ab13a5e345d87ddfab721bf5b60e431eb230e588c25"
+          },
+          {
+            "Key": "37af0e79bf5352449876509ef48ec995",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-06-tep-2.png",
+            "Size": 36661,
+            "Sha256": "3fcebba6fcc5d4a4fcbc5f187507d72b4df67b2ba0778d692124fffc269ee26d"
+          },
+          {
+            "Key": "4fca53bc10135dfe94f4bf9a4f233b35",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-46-chuong-06-tep-3.png",
+            "Size": 37412,
+            "Sha256": "7cda02c713870dd019e807cbafc31a9625bc7b55c368c5c64c798e163f5b88ae"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Hai chị em và mùa gió",
+    "Author": "Chi Lam (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại thư viện, một chiếc chìa khóa mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": true,
+    "Pending": true,
+    "Hidden": false,
+    "Genres": [
+      "Lịch sử",
+      "Phiêu lưu"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "ffcbad13af9e560b80f8f167987e1857",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-01-tep-1.png",
+            "Size": 35390,
+            "Sha256": "62cc1ff43c6a8ec017a3e5eb8b17898d5f88ded7c5157ae72e69fb913b5c44c9"
+          },
+          {
+            "Key": "13ad87404f9a531680000ad437a70022",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-01-tep-2.png",
+            "Size": 34448,
+            "Sha256": "164b04538f639a157824cc96343b666b2acb22783a6e75ef69e4478b0f4e3a3b"
+          },
+          {
+            "Key": "d13d7b7fcf4c5fcfa43c9a186e723d1d",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-01-tep-3.png",
+            "Size": 35090,
+            "Sha256": "b5f5a0772050706ee136c36fbdefcdda760eb7591b4e8f1ea1f3659ec0187bd4"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "c569315a86895a8d93522a633f032a8a",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-02-tep-1.png",
+            "Size": 36434,
+            "Sha256": "8d1904507819021db369ccf25d4a3ae31bf6d92ef15c726b8912f287e6a48914"
+          },
+          {
+            "Key": "60d7a3239183562db3a77e327d61f413",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-02-tep-2.png",
+            "Size": 34654,
+            "Sha256": "aeea910e00565611d2f6ba0254f0a1a54e1cd088bd130c407d088e99ff2f8a5e"
+          },
+          {
+            "Key": "75877e51b1ff525f910c42ab21b429aa",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-02-tep-3.png",
+            "Size": 35960,
+            "Sha256": "82b38acddeec9486445f6380206fef8dd49eba418aa464ff10d17566cd082cf0"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "ac5ba48fd5aa5e41be51a3ecb1e5f535",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-03-tep-1.png",
+            "Size": 36540,
+            "Sha256": "308ca064ff35ea4a6c0c2a407e91f325051f4b30d5d7459d8f3574899f06c75a"
+          },
+          {
+            "Key": "7c6bc6d0413a5131b89c378a95dc9e27",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-03-tep-2.png",
+            "Size": 35397,
+            "Sha256": "641406bb879a2b8f1da5b6d66ea7d24424d4b2003864c0fb090da3ec137edb34"
+          },
+          {
+            "Key": "d9041bcc2be8537c8e4c7b06a31c26c1",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-03-tep-3.png",
+            "Size": 35568,
+            "Sha256": "13c55c0f0297ca1cfcda7cf97f561e936c710cbc881a2e94a4274945b3cf54cf"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "807eaef2289d5f45992e463b4c845e57",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-04-tep-1.png",
+            "Size": 36047,
+            "Sha256": "7fe112619fa8e3d847149623699cd3004098c51741579fcc3b013dbedc2457a7"
+          },
+          {
+            "Key": "49b929c75cf958ba91f6b020eab42d13",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-04-tep-2.png",
+            "Size": 34901,
+            "Sha256": "f2162fb8a4907f7e0f2be3ec1fe1be5920fb71283c3ff5a14a188b8f4bf6df68"
+          },
+          {
+            "Key": "c0867943bad65df38e0fd060ebb4eb80",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-04-tep-3.png",
+            "Size": 35558,
+            "Sha256": "74f12477fc3bdbf2492891d98af8b0772cf24c367e95377037129205fd368875"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "acf3a8ceb54750aca07ae26840eeaf26",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-05-tep-1.png",
+            "Size": 36070,
+            "Sha256": "58e3414c22c557ab25e22c36244a4a339b6a13249f20e962682d991b4543c7c9"
+          },
+          {
+            "Key": "eb0f0792d0475b1aae52e448b48b03de",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-05-tep-2.png",
+            "Size": 34910,
+            "Sha256": "6a8d1bba265acbb8b888d992941c526697a79b9be1d054003604c5ea5c69ce6e"
+          },
+          {
+            "Key": "e3103cc029ca5fda805fc500c775cdce",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-05-tep-3.png",
+            "Size": 35590,
+            "Sha256": "1acc762ddaba422799369389039df325ad3bf80aaa339b783b3ba93d07d96b7d"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "aee21a1c1d595e938280516490e87c7c",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-06-tep-1.png",
+            "Size": 37193,
+            "Sha256": "8565ec720702c2de41a0848c7b6834147b896253a9561dc0c2956e23e4981564"
+          },
+          {
+            "Key": "9c7b7f003ab957c697d739849f860fec",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-06-tep-2.png",
+            "Size": 36032,
+            "Sha256": "dcf57e5f930af7a86389f391d8ff777eb639fef4e6c237cd12654ba2374676ee"
+          },
+          {
+            "Key": "cd5c6bc360435aa9ad0baa1433dcfc12",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-47-chuong-06-tep-3.png",
+            "Size": 36725,
+            "Sha256": "18daa5202fe35d07eac595a8a22d49336756c50179fdd2c74ac2afbc30f33557"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Title": "Câu lạc bộ sửa đồ cũ",
+    "Author": "Xưởng Mây (mẫu)",
+    "Description": "[TRUYỆN MẪU] Tại khu vườn, một tấm bản đồ mở ra hành trình của An và Bình. Câu chuyện về tình bạn, sự tò mò và cách cùng nhau vượt qua thử thách. Có 6 chương để kiểm tra đọc tiếp, tủ sách, đánh giá và bình luận.",
+    "Kind": 1,
+    "Finished": false,
+    "Pending": true,
+    "Hidden": true,
+    "Genres": [
+      "Kỹ năng sống",
+      "Văn học"
+    ],
+    "Chapters": [
+      {
+        "Title": "Tín hiệu đầu tiên",
+        "Files": [
+          {
+            "Key": "5a4ae21a231d591fabc3897b0a16dafc",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-01-tep-1.png",
+            "Size": 35940,
+            "Sha256": "0321c77dc3891d932a66c67d94f3e219d05704dbd0fe384b72924bf23f535ab3"
+          },
+          {
+            "Key": "4997cae7b2cd530fbb95aa9fb412c283",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-01-tep-2.png",
+            "Size": 34997,
+            "Sha256": "21c7a9375dbae064707a5adddb4637131e27b04573503c5187a4b918d6971aaf"
+          },
+          {
+            "Key": "2f125e7046d05be5a1fd585854f4aaf1",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-01-tep-3.png",
+            "Size": 35700,
+            "Sha256": "695f557a188c6a8f62ddc346684dbf23089deae3939c651800e67b4f4b43d5a6"
+          }
+        ]
+      },
+      {
+        "Title": "Một người bạn mới",
+        "Files": [
+          {
+            "Key": "9def4c5570855b7084d238381cbf8d3c",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-02-tep-1.png",
+            "Size": 36980,
+            "Sha256": "15997ddb7487092e711c81850ff4aab9c01ababab6d32a0cc698778ebf661ace"
+          },
+          {
+            "Key": "3bf07811bfa6535ead6063b09cf54a76",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-02-tep-2.png",
+            "Size": 35194,
+            "Sha256": "83e34b564565d9bf1c44c4d01af9e6d5a1daabf709aeee436bb5ecc080423e25"
+          },
+          {
+            "Key": "1e96fbb20faf5d838b9fbba58af0b26e",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-02-tep-3.png",
+            "Size": 36560,
+            "Sha256": "83d60e23a2f4a753b3e004003fac768af336fad62fb27c95b2892724526919ff"
+          }
+        ]
+      },
+      {
+        "Title": "Dấu vết còn lại",
+        "Files": [
+          {
+            "Key": "8904645a94875f8e86fe54a6ca036ce7",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-03-tep-1.png",
+            "Size": 37087,
+            "Sha256": "e790f50d6f3ed16748d1f369d437247d9675bd63540c892360a6163c396f411b"
+          },
+          {
+            "Key": "904069ba3569587e971e8daac689ae43",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-03-tep-2.png",
+            "Size": 35939,
+            "Sha256": "1662d17b0e4e4c8739aa338e12eaeb77a1f681675ef1ffe62060a52788e41148"
+          },
+          {
+            "Key": "3cce28f5cbc05b76a2c186d41a83a818",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-03-tep-3.png",
+            "Size": 36175,
+            "Sha256": "e652daa8c61387002543ae4bc78bc9af705d64d3bed3f93c989b1a987fb30cb3"
+          }
+        ]
+      },
+      {
+        "Title": "Lựa chọn giữa đường",
+        "Files": [
+          {
+            "Key": "13e5992859ff53eea70728be9bb6a5a1",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-04-tep-1.png",
+            "Size": 36594,
+            "Sha256": "3321feab3242f767da25c6a67653c8b20d80261ce012cb8b9aa608b3d07e7313"
+          },
+          {
+            "Key": "e8a99ad1666254258d8978d22733d7d2",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-04-tep-2.png",
+            "Size": 35450,
+            "Sha256": "f3e8c30a2c27284e4aecd6b5c922c91528b6f2b5e76f7f5062da11e86118d075"
+          },
+          {
+            "Key": "e951ef3479eb574c972d4e50e9e41def",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-04-tep-3.png",
+            "Size": 36158,
+            "Sha256": "a43748e47541c1d296c1fe154d2ce3e65b48be15151c62c6940e189225785a6e"
+          }
+        ]
+      },
+      {
+        "Title": "Cùng nhau tìm lời giải",
+        "Files": [
+          {
+            "Key": "19eb7fe872ca56e99ea94a6c94ab0805",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-05-tep-1.png",
+            "Size": 36613,
+            "Sha256": "2cbc2a9e23259bba6ec7224d220a1190809703bd87f23f6ea0ea929717bc67b4"
+          },
+          {
+            "Key": "249222231bc553dc91773ccd28e97cc3",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-05-tep-2.png",
+            "Size": 35458,
+            "Sha256": "b4a2aaed41f5b258b1a7d23bed306862cd04eee00aa55ffa66d3ea6d3532a2f8"
+          },
+          {
+            "Key": "bc8f96f096205607b9d559491ef247df",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-05-tep-3.png",
+            "Size": 36189,
+            "Sha256": "e15d2019bb17b57dcc435874c5b507cf81e6d295e50767b52e625404f05a2a6d"
+          }
+        ]
+      },
+      {
+        "Title": "Ngày mới bắt đầu",
+        "Files": [
+          {
+            "Key": "a2e3a1a951f554149fb87c39919bfca9",
+            "Order": 1,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-06-tep-1.png",
+            "Size": 37738,
+            "Sha256": "a159dd57c7c953cc5aefb99fb0f9e5e488e537f3cfb9a5910769b31affc5122f"
+          },
+          {
+            "Key": "3c8c377bfc0b524f8578095933b8ba53",
+            "Order": 2,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-06-tep-2.png",
+            "Size": 36577,
+            "Sha256": "bb8cc8c81f6c5e89b86c329418d8da0684294dc0df4f5c4c535c433d15c77f46"
+          },
+          {
+            "Key": "52be991ae0bc58068181f3c35d551423",
+            "Order": 3,
+            "ContentType": "image/png",
+            "OriginalName": "truyen-48-chuong-06-tep-3.png",
+            "Size": 37318,
+            "Sha256": "e3c1f8f15dcb7e86596c148fd3425cd2dd3f249bfd6875bbed855b77a09c5a96"
+          }
+        ]
+      }
+    ]
+  }
+]

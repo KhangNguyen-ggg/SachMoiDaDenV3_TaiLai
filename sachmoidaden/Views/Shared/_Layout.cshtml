@@ -1,0 +1,30 @@
+@inject sachmoidaden.Services.LibraryService Library
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>@ViewData["Title"] · Sách Mới Đã Đến</title><link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/><script src="~/js/site.js" asp-append-version="true" defer></script></head>
+<body><a class="skip-link" href="#main">Đến nội dung chính</a>
+<svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-7-2-10-1v15c3-1 7-1 10 1 3-2 7-2 10-1V4c-3-1-7-1-10 1Zm0 0v15"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14A9 9 0 0 1 10 3a9 9 0 1 0 10 11Z"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/></symbol>
+<symbol id="i-flame" viewBox="0 0 24 24"><path d="M13 2c1 7 7 8 7 14a8 8 0 0 1-16 0c0-3 2-6 4-8 0 4 2 5 3 5 3-3 2-7 2-11Z"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h18m-7-7 7 7-7 7"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24"><path d="m4 16 12-12 4 4L8 20H4Zm10-10 4 4M3 23h18"/></symbol>
+<symbol id="i-shelf" viewBox="0 0 24 24"><path d="M3 3v18M8 3v18m4-17 6 16m-3-18 6 17"/></symbol>
+</defs></svg>
+<header class="site-header"><div class="container header-inner">
+<a class="brand" href="/"><svg class="icon gold"><use href="#i-book"/></svg>Sách Mới Đã Đến</a>
+<button class="icon-button menu-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="main-nav"><svg class="icon"><use href="#i-menu"/></svg></button>
+<nav id="main-nav" aria-label="Điều hướng chính"><a href="/">Khám phá</a><a href="/Home/Catalog">Thư viện</a><a href="/Discussion">Diễn đàn</a><a href="/User/Following">Tủ sách</a><a href="/User/History">Lịch sử</a>
+@if(User.IsInRole(Roles.Contributor)||User.IsInRole(Roles.Admin)){<a href="/Management/Book">Xưởng viết</a>}
+@if(User.IsInRole(Roles.Contributor)||User.IsInRole(Roles.Moderator)||User.IsInRole(Roles.Admin)){<a href="/Management">Quản lý</a>}
+</nav><div class="header-tools"><details class="search-popover"><summary class="search-trigger" aria-label="Mở tìm kiếm và lọc thể loại" aria-expanded="false"><svg class="icon"><use href="#i-search"/></svg><span>Tìm sách…</span></summary><form class="search-panel stack" action="/Home/Catalog" method="get"><label for="header-query">Tên sách, tác giả</label><input id="header-query" name="q" maxlength="200" value="@Context.Request.Query["q"]" placeholder="Bạn muốn đọc gì?"/><fieldset><legend>Thể loại</legend><div class="genre-options">@foreach(var genre in (await Library.GenresAsync())){<label><input type="checkbox" name="genres" value="@genre" checked="@(Context.Request.Query["genres"].Contains(genre)||Context.Request.Query["genre"].Contains(genre))"/> @genre</label>}</div></fieldset><div class="actions"><button class="button primary">Tìm sách</button><a href="/Home/Catalog">Xóa bộ lọc</a></div></form></details>
+<button class="icon-button theme-toggle" aria-label="Đổi chế độ sáng tối" aria-pressed="false"><svg class="icon"><use href="#i-moon"/></svg></button>
+@if(User.Identity?.IsAuthenticated==true){<details class="account-menu"><summary class="avatar" aria-label="Tài khoản">@User.Identity.Name?.Substring(0,1)</summary><div class="account-panel"><strong>@User.Identity.Name</strong><a href="/User/Following">Tủ sách của tôi</a><form asp-controller="Account" asp-action="Logout" method="post"><button class="text-button">Đăng xuất</button></form></div></details>}
+else{<a class="login-link" href="/Account/Login">Đăng nhập</a>}
+</div></div></header>
+<main id="main">@if(TempData["Notice"] is string notice){<div class="container"><p class="notice" role="status">@notice</p></div>}@RenderBody()</main>
+<footer class="site-footer"><div class="container"><div class="footer-row"><p><strong>Sách Mới Đã Đến</strong><span> · Nơi mỗi chương là một hành trình</span></p><div><a href="/">Khám phá</a><a href="/Home/Catalog">Thư viện</a><a href="/Discussion">Diễn đàn</a><a href="/User/Following">Tủ sách</a></div></div><p class="copyright">Diễn đàn đọc sách và thảo luận</p></div></footer>
+@await RenderSectionAsync("Scripts", required:false)
+</body></html>

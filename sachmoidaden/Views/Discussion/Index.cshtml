@@ -1,0 +1,7 @@
+@model ForumViewModel
+@{ViewData["Title"]="Diễn đàn";}
+<div class="container page narrow"><div class="section-heading"><div><h1>Diễn đàn sách</h1><p class="muted">Một cuốn sách, nhiều góc nhìn.</p></div><a class="button primary" href="/Discussion/Create">Tạo chủ đề</a></div>
+<div class="chips"><a class="chip" href="/Discussion">Tất cả</a>@foreach(var t in Model.Tags){<a class="chip @(t.Equals(Model.Tag,StringComparison.OrdinalIgnoreCase)?"active":"")" asp-action="Index" asp-route-tag="@t">#@t</a>}</div>
+@if(Model.Posts.Count==0){<p class="empty">Chưa có chủ đề phù hợp. Bạn có thể mở đầu cuộc thảo luận.</p>}
+@foreach(var p in Model.Posts){<article class="discussion-row forum-topic"><h2><a href="/Discussion/Details/@p.Id">@p.Title</a></h2><p class="muted">@p.Author · @ContentQueries.Vietnam(p.CreatedAt).ToString("dd/MM/yyyy HH:mm")</p><div class="chips">@foreach(var t in p.Tags){<a class="tag" asp-action="Index" asp-route-tag="@t">#@t</a>}</div></article>}
+@if(Model.Pages>1){<nav class="pagination" aria-label="Phân trang">@for(int i=1;i<=Model.Pages;i++){<a class="chip" aria-current="@(i==Model.Page?"page":null)" asp-action="Index" asp-route-tag="@Model.Tag" asp-route-page="@i">@i</a>}</nav>}</div>

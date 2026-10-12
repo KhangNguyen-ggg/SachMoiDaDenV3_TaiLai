@@ -1,0 +1,2 @@
+@model (string Kind,int Id)
+@if(User.Identity?.IsAuthenticated==true){<details class="report-form"><summary>Báo cáo nội dung</summary><form asp-controller="Discussion" asp-action="Report" method="post"><input type="hidden" name="kind" value="@Model.Kind"/><input type="hidden" name="id" value="@Model.Id"/><label for="reason-@Model.Kind-@Model.Id">Lý do báo cáo</label><textarea id="reason-@Model.Kind-@Model.Id" name="reason" required maxlength="1000" rows="2"></textarea><button class="button small">Gửi báo cáo</button></form></details>}

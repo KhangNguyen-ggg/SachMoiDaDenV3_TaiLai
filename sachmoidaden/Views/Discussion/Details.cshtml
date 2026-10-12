@@ -1,0 +1,5 @@
+@model DiscussionViewModel
+@{ViewData["Title"]=Model.Post.Title;}
+<div class="container page narrow"><a class="back-link" href="/Discussion">← Diễn đàn</a><article class="post-content"><h1>@Model.Post.Title</h1><p class="muted">@Model.Post.Author · @ContentQueries.Vietnam(Model.Post.CreatedAt).ToString("dd/MM/yyyy HH:mm")</p><div class="chips">@foreach(var t in Model.Post.Tags){<a class="tag" asp-action="Index" asp-route-tag="@t">#@t</a>}</div><div class="preserve-lines">@Model.Post.Body</div><partial name="_Report" model='@(("post",Model.Post.Id))'/></article><section class="content-section"><h2>Trao đổi <span class="count">@Model.Comments.Count</span></h2><partial name="_Comments" model="@(new CommentListViewModel(Model.Comments,null,Model.Post.Id))"/></section></div>
+
+<section class="container narrow content-section"><h2>Chủ đề tương tự</h2>@if(((List<Discussion>)ViewBag.Similar).Count==0){<p class="muted">Chưa có chủ đề cùng tag.</p>}@foreach(Discussion similar in ViewBag.Similar){<article class="discussion-row"><h3><a href="/Discussion/Details/@similar.Id">@similar.Title</a></h3><p class="muted">@similar.Author</p></article>}</section>

@@ -1,0 +1,3 @@
+@model List<Story>
+@{ViewData["Title"]="Tủ sách";}
+<div class="container page"><div class="page-heading"><h1>Tủ sách của tôi</h1><p>@Model.Count cuốn sách được lưu, dành cho lần đọc tiếp theo.</p></div>@if(Model.Count==0){<div class="empty"><h2>Tủ sách đang trống</h2><p>Mở một cuốn sách trong thư viện và chọn “Lưu vào tủ sách”.</p><a class="button primary" href="/Home/Catalog">Khám phá sách</a></div>}<div class="book-grid">@foreach(var b in Model){<partial name="_StoryCardPartial" model="b"/>}</div></div>

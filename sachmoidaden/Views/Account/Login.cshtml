@@ -1,0 +1,3 @@
+@model LoginInput
+@{ViewData["Title"]="Đăng nhập";}
+<div class="container page auth-page"><h1>Chào bạn trở lại.</h1><p class="muted">Mở tủ sách và tiếp nối cuộc trò chuyện.</p><form asp-action="Login" method="post" class="stack"><div asp-validation-summary="ModelOnly" class="validation"></div><input asp-for="ReturnUrl" type="hidden"/><label asp-for="Email">Email</label><input asp-for="Email" autocomplete="username"/><span asp-validation-for="Email" class="validation"></span><label asp-for="Password">Mật khẩu</label><input asp-for="Password" autocomplete="current-password"/><span asp-validation-for="Password" class="validation"></span><button class="button primary">Đăng nhập</button></form><p>Chưa có tài khoản? <a href="/Account/Register">Đăng ký</a></p></div>

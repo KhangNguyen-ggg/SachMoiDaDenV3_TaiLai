@@ -1,0 +1,13 @@
+@model ReaderViewModel
+@{var b=Model.Book;var c=b.Chapters.First(c=>c.Number==Model.Number);ViewData["Title"]=c.Title;string route=Model.Preview?"Preview":"Read";var index=b.Chapters.IndexOf(c);}
+<div class="container page reader">
+<a class="back-link" href="@(Model.Preview?$"/Management/Preview/{b.Id}":$"/Story/Details/{b.Id}")">← @b.Title</a>
+@if(Model.Preview){<p class="notice">Đang xem trước. Lượt đọc và lịch sử không thay đổi.</p>}
+<div class="reader-toolbar"><form method="get"><input type="hidden" name="id" value="@b.Id"/><label for="chapter">Chương</label><select id="chapter" name="chapter">@foreach(var ch in b.Chapters){<option value="@ch.Number" selected="@(ch.Number==Model.Number)">@ch.Number. @ch.Title</option>}</select><button class="button small">Chuyển</button></form><div class="font-tools"><button class="icon-button" data-font="-1" aria-label="Giảm cỡ chữ">A−</button><button class="icon-button" data-font="1" aria-label="Tăng cỡ chữ">A+</button></div></div>
+<article class="reading-content"><p class="muted">Chương @Model.Number · @b.Chapters.Count chương</p><h1>@c.Title</h1><partial name="_ChapterContent" model="Model.Content"/></article>
+<nav class="reader-nav" aria-label="Chuyển chương">
+@if(index>0){<a class="button" href="/Story/@route/@b.Id?chapter=@b.Chapters[index-1].Number">← Chương trước</a>}else{<span></span>}
+@if(index<b.Chapters.Count-1){<a class="button primary" href="/Story/@route/@b.Id?chapter=@b.Chapters[index+1].Number">Chương sau →</a>}else{<a class="button" href="@(Model.Preview?$"/Management/Preview/{b.Id}":$"/Story/Details/{b.Id}")">Về trang sách</a>}
+</nav>
+@if(!Model.Preview){<section class="content-section"><h2>Bình luận chương @c.Number</h2><partial name="_Comments" model="@(new CommentListViewModel(Model.Comments,null,null,c.Id))"/></section>}
+</div>

@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+*.csproj.user
+App_Data/
+appsettings.Local.json
+*.log

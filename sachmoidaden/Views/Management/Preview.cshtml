@@ -1,0 +1,7 @@
+@model Story
+@{ViewData["Title"]="Xem nội dung: "+Model.Title;}
+<div class="container page narrow"><a class="back-link" href="/Management">← Quản lý sách</a><h1>@Model.Title</h1><p class="muted">@Model.Author · @Model.Genre</p><p>@(Model.PendingApproval?"Chờ duyệt":"Đã duyệt") · @(Model.Hidden?"Đang ẩn":"Không bị ẩn")</p><p>@Model.Description</p><h2>Nội dung chương</h2>
+@if(Model.Chapters.Count==0){<p class="empty">Chưa có chương nào.</p>}
+<ol class="chapter-list">@foreach(var c in Model.Chapters){<li><a href="/Story/Preview/@Model.Id?chapter=@c.Number">Chương @c.Number. @c.Title <span class="muted">@c.Files.Count tệp →</span></a></li>}</ol>
+@if(User.IsInRole(Roles.Admin)||User.IsInRole(Roles.Moderator)){<form asp-action="Moderate" method="post" class="actions"><input type="hidden" name="kind" value="book"/><input type="hidden" name="id" value="@Model.Id"/>@if(Model.PendingApproval){<button class="button primary" name="action" value="approve">Duyệt sách</button>}<button class="button" name="action" value="@(Model.Hidden?"restore":"hide")">@(Model.Hidden?"Khôi phục":"Ẩn sách")</button></form>}
+</div>
